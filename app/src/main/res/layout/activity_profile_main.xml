@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_above="@id/bottom_navigation"
+    android:background="@drawable/sea_bg"
+    tools:context=".ProfileMain">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/bottom_navigation"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cv"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:alpha="0.8"
+            android:layout_marginStart="32dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginTop="32dp"
+            app:cardBackgroundColor="#E7EBED"
+            app:cardCornerRadius="18dp"
+            app:cardUseCompatPadding="true">
+
+            <LinearLayout
+                android:id="@+id/ll1"
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                android:gravity="center|left"
+                android:orientation="horizontal">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/profileImage"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginStart="32dp"
+                    android:src="@drawable/uer_profile_image" />
+
+                <TextView
+                    android:id="@+id/userName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:gravity="center"
+                    android:textColor="@color/black"
+                    android:textSize="22sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <Button
+            android:id="@+id/settings"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_alignTop="@+id/cv"
+            android:layout_alignEnd="@+id/cv"
+            android:layout_margin="16dp"
+
+            android:background="@drawable/ic_settings_icon"
+            android:padding="13dp" />
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="180dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="45dp"
+                android:layout_marginEnd="45dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+
+                <Button
+                    android:id="@+id/myFavouritesBtn"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/profile_shape"
+                    android:drawableStart="@drawable/ic_favorites_icon"
+                    android:drawableEnd="@drawable/ic_arrow"
+                    android:paddingStart="12dp"
+                    android:paddingEnd="10dp"
+                    android:text="My Favourites"
+                    android:textColor="@color/black"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/remindersBtn"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="8dp"
+                    android:background="@drawable/profile_shape"
+                    android:drawableStart="@drawable/ic_reminders_icon"
+                    android:drawableEnd="@drawable/ic_arrow"
+                    android:paddingStart="12dp"
+                    android:paddingEnd="10dp"
+                    android:text="Stressed Locations"
+                    android:textColor="@color/black"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/calenderBtn"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="8dp"
+                    android:background="@drawable/profile_shape"
+                    android:drawableStart="@drawable/ic_calendar_icon"
+                    android:drawableEnd="@drawable/ic_arrow"
+                    android:paddingStart="12dp"
+                    android:paddingEnd="10dp"
+                    android:text="calender"
+                    android:textColor="@color/black"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/premiumBtn"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="8dp"
+                    android:background="@drawable/profile_shape"
+                    android:drawableStart="@drawable/ic_premium_icon"
+                    android:drawableEnd="@drawable/ic_arrow"
+                    android:paddingStart="12dp"
+                    android:paddingEnd="10dp"
+                    android:text="Premium"
+                    android:textColor="@color/black"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/rateUsBtn"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="8dp"
+                    android:background="@drawable/profile_shape"
+                    android:drawableStart="@drawable/ic__rate_icon"
+                    android:drawableEnd="@drawable/ic_arrow"
+                    android:paddingStart="12dp"
+                    android:paddingEnd="10dp"
+                    android:text="Rate Us"
+                    android:textColor="@color/black"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/aboutAppBtn"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="8dp"
+                    android:background="@drawable/profile_shape"
+                    android:drawableStart="@drawable/ic_about_app"
+                    android:drawableEnd="@drawable/ic_arrow"
+                    android:paddingStart="12dp"
+                    android:paddingEnd="10dp"
+                    android:text="About App"
+                    android:textColor="@color/black"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/btnHelp"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="8dp"
+                    android:background="@drawable/profile_shape"
+                    android:drawableStart="@drawable/ic_about_icon"
+                    android:drawableEnd="@drawable/ic_arrow"
+                    android:paddingStart="12dp"
+                    android:paddingEnd="10dp"
+                    android:text="Help"
+                    android:textColor="@color/black"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+
+
+                <Button
+                    android:id="@+id/signOut"
+                    android:layout_width="200dp"
+                    android:layout_height="55dp"
+                    android:layout_marginTop="45dp"
+                    android:layout_marginBottom="16dp"
+                    android:background="@drawable/mybutton"
+                    android:text="LOGout"
+                    android:textColor="@color/white"
+                    android:textSize="21sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+        </ScrollView>
+
+
+    </RelativeLayout>
+
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        app:itemBackground="@color/white"
+        app:itemIconTint="@color/teal_700"
+        app:itemTextColor="@color/teal_700"
+        app:menu="@menu/menu_navigation" />
+
+</RelativeLayout>

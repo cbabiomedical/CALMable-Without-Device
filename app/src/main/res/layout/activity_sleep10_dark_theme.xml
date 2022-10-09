@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sea_bg"
+    tools:context=".SleepStory10">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/linear11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <ImageView
+            android:id="@+id/forestImg"
+            android:layout_width="wrap_content"
+            android:layout_height="240dp"
+            android:layout_marginTop="0dp"
+            android:src="@drawable/morningw"/>
+
+        <TextView
+            android:id="@+id/theme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableEnd="@drawable/theme"
+            android:gravity="right |center"
+            android:onClick="btnTheme"
+            android:paddingTop="11dp"
+            android:textColor="@color/dark_blue_300"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="\n\n\nMorning"
+            android:textColor="@color/white"
+            android:textSize="45sp"
+            android:fontFamily="@font/bilbo"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:text="\n\n\n\n\n\n\n\n\n\n\n\n by Michael Heavener
+  "
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            android:fontFamily="@font/roboto_medium"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    <ScrollView
+        android:id="@+id/scroll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/linear11">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/linear11"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/black_blackground"
+            app:layout_constraintTop_toBottomOf="@+id/linear11">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_marginTop="15dp"
+                android:text="  This morning, I wake up and find a pregnant woman in bed beside me. In my bed. There's no mistaking the swelling of her belly.
+
+\n\nThis woman, she's a young thing. From the side, she appears too young to be so pregnant, maybe 16 or 17 at the most.
+
+\n\nShe—the young woman—has long brown hair. Long. It flows everywhere, on her side, onto my side. And it has soft curls. Really pretty, I wish I had hair like that.
+
+\n\nI lean up on my elbow to see her face. You'd do the same, right? Maybe I shouldn't have.
+
+\n\nShe has my husband's face. No shit!
+\n\nI've lived with him long enough to know the turned-up corners of his eyes, the sun browned freckles from our days on the beach, the subtle curve of his jaw, the gentle ridge of his nose, even the way his cheekbones form arches. There's no mistake—it's my husband's face.
+\n\nAnd yet... yet it's not his face. It's softer, smoother. It's lost the hardness of masculinity. I swear, those lips are fuller and form a cupid's bow that wasn't there yesterday. Sun flecked or not, she's definitely not my husband. I'm confused.
+\n\nShe hears me stirring and opens her eyes.
+
+\n\n“Hey”, she says in a husky voice.“G'morning.”
+
+\n\nOhmygawd, she has my husband's voice. You think after 12 years of marriage I wouldn't recognize my own husband's voice? It's softer, melodic, but that's the way he greets me every morning: “G'morning.”
+
+\n\n“Who are you?” I demand. “What the hell are you doing in my bed?”
+
+\n\n“Your name?”
+
+            \n\n“Where's my husband? Where's Conrad? How the hell did you get into my house?”
+
+\n\nShe turns her head so her face—his soft face—is full-on to me. “Honey, I'm Conrad. I'm just...” She pats her pregnant belly and winces. “Isn't this neat? We're gonna have a baby.”
+
+            \n\n“Not in...” Crap. How can I say this? Not in my bed? Not in my house? Not in my lifetime? But I don't feel that way. She seems like a nice little girl. How can I yell at her? Could you?
+
+            \n\nAnd—and—and we tried really hard to conceive a child. For the last 13 years, since we got married, nothing worked. They say I'm fertile. They say Conrad's fertile. They say there's no reason we couldn't. I'm 33 years old and I finally gave up.
+
+            \n\n“Not in...?” she wonders, as a distracted look flits across that familiar face. ”... in this house? Honey? Don't you recognize me? Does the belly confuse you?”
+
+            \n\nWell, yeah. Yeah, it does. It really does. How can someone go to bed male and wake up pregnant? “This is crazy. Where's my husband...?”
+
+            \n\nShe frowns. “I'm your husband. Really...” She stares down at herself. “No, I guess I'm not anymore.” She makes a ball with her fist, presses it against her uterus.
+
+            \n\n“That's right. I can tell looking at you that you're not. How did you get in? Where did you come from?”
+
+            \n\nShe stretches and the blanket slips off. She's naked, naked all the way to her toes. This pregnant woman with my husband's face and voice—from the look of her breasts, she's almost ready to nurse. She sees where I'm staring and cups her hands around them. “Neat, huh?” she says.
+
+            \n\n“Yeah. Neat,” I answer grumpily. “Just peachy.”
+
+            \n\nThen there's that look again, that pained look, as if to say come on woman, get with the program here. “What am I supposed to do? You were asleep and I didn't want to wake you up. This just kind of... happened.”
+
+            \n\nI'm not seeing this—it isn't true. Please God, pleads my head, when I open my eyes, please make her not be here.
+
+            \n\nBut my eyes still see a pregnant woman. She swings her legs over the side of the bed. Something stops her momentarily, a guarded wary hesitation.
+
+            \n\n“I gotta pee,” she says, going into our connected bathroom. She waddles when she walks, like a... a... damn it, a pregnant woman.
+
+            \n\nIn a feminine way, that's how he stands. That's how he walks, holds his head. Except for the awkward pregnant arch of her back—she could be Conrad's younger sister.
+
+            \n\nStill, there's no mistake. Those are Conrad's eyes. That's how he always looks at me, with a sort of sentimental tilt, a subconscious twinkle. She loves me. Damn.
+
+            \n\n“Look,” I hear myself say as she sits on the toilet facing me. “Look, girly. I don't know how...” Crap, why am I angry? She's done nothing to incur that, except be here. Here, now, when I least expected her.
+
+            \n\nShe finishes in the bathroom, wiping herself with a big wad of tissue. There are tears in her eyes, shining in the glare of the bathroom fixture. Her tits start to shudder from little sobs and a drip pauses at the tip of her nose. She dabs at it with more tissue.
+
+           \n\n “I... I don't know how to... to convince you that I'm me,” she says. “I didn't do this on purpose. It just happened.”
+
+           \n\n “Shit, you expect me to believe that?”
+
+            \n\n“Please? Please see with your heart, not your eyes.”
+
+            \n\nOuch. That's such a Conrad thing to say. I married him because he seemed to understand me, understand how I felt, even when I didn't understand myself. “You can't be him,” I tell her. “You're soft, feminine.”
+
+            \n\n“And... pregnant. Is that it? Is that what's...” There's that hurt look again, fleeting across her face. “I'm cold.”
+
+            \n\nI'm starting to feel sorry for this bloated slip of a girl—the way she cradles her belly in her hands, the way she sways, bracing her back against the baby's weight. She's trembling.
+
+            \n\n“Wear my robe. It's too long but it will do until I can find you something that fits. We'll go to the mall this afternoon and buy you some maternity clothes that are presentable.”
+
+            \n\n“I guess that means you won't throw me out?”
+
+            \n\nOh hell. Okay, so I can't throw her out. It's clear she has nowhere to go. She gives me as much of a hug as her belly will allow when I put the robe around her.
+
+            \n\n“Thank you,” she whispers. Except that it's “thang k'you” in his—Conrad's—light accent, and she doesn't even know she says it that way. His way. I still wonder—am I going insane?
+
+            \n\nIt can't be possible, you know. What would cause a 35-year-old man, a husky outdoorsy man, to transform into a pregnant girl? From her appearance, she's lost half of Conrad's age. And she accepts it so nonchalantly. Shouldn't she, shouldn't he, be freaking out to wake up like this?
+
+            \n\nThis young girl, she waddles gingerly after me as I go to the kitchen. She's having a tough time; she's panting, sharp breathes she doesn't want me to hear.
+
+            \n\nBefore I can offer her anything, she gets Conrad's favorite cup out of the dishwasher. Sweet man that he is, he washed the dishes last night after I went to bed. She couldn't have known it was there.
+
+            \n\nCould she? Well... could she? She pours coffee just the way he does. She catches me looking at her and smiles. Yeah, it's his face alright, that's his smile.
+
+            \n\nShe shakes her head to get the hair out of her eyes and sips the hot brew. It must be too hot because she winces again.
+
+            \n\nHow would I treat this if I saw it on the nightly news? “My husband was a pregnant girl when I woke up this morning. He wasn't pregnant at bedtime last night. And he's never been a girl before.” Yeah, right.
+
+            \n\nShe seems awfully nervous now. She keeps flicking those... those dreamy blue eyes. His eyes were always so beautiful, so hypnotic. I think that's what I fell in love with when I first met him. What am I thinking? Am I just imagining that she's him. How would you handle this?
+
+            \n\nHer coffee cup is on the counter now, as though she's afraid she'll drop it. I frown. “Are you okay?”
+
+            \n\n“No,” she says. Her voice cracks. It's thin, reedy, and worried. “I just pee'd all over myself. I... I'm sorry about the mess. I'll clean it up.”
+
+            \n\nI look down. She's right, the kitchen floor is wet. But it's not pee. My gawd, her water just broke. She's going into labor. “How long has this been happening,” I ask. “How far apart are the contractions?”
+
+            \n\n“Contractions?” she wonders as I seat her gently into a chair. Doesn't she know?
+
+            \n\n“The sharp pains. In your belly. How long?”
+
+            \n\n“All night,” she says. “I didn't want to wake you up.” She... she didn't want to wake me up... she's a hell of a lot braver than I'd be.
+
+            \n\nNow it makes sense, the quizzical looks, the odd way she's been holding her belly, the fleeting glimpses of pain. She has no idea what labor is. And I've been too stupid to recognize it.
+
+            \n\nBut every woman knows about labor. We talk endlessly about having babies, about the pain, about how to handle it. My mother told me about childbirth. Prepared me for my role in the natural rhythm. Even though I can't seem to conceive, it's part of growing up female.
+
+            \n\nThis girl... look at her. The pain is making her miserable, and she doesn't understand. She shuffles her feet aimlessly.
+
+            \n\nThis is no joke. She really is pregnant. Whoever the father was... I wonder if there was one or this is some kind of... of... oh, hell, I don't know. Anyway, he's not here—and the only help she has is me.
+
+            \n\nI squint at her. Yes, she's in agony. Her belly clenches and unclenches. So do her fists, hidden between her legs where she thinks I can't see them. The coffee maker whispers in the background as I watch the clock on the stove. One minute. One and a half. Two minutes apart.
+
+            \n\nThat means she's nearly ready. I sprint for the phone and call 9-1-1. “My...” I look at her sitting so stiffly, so stoically and almost say the unthinkable—my husband—but catch myself. “My daughter is in labor,” I lie. “Her contractions are about two minutes apart.”
+
+            \n\n“We'll send a unit right away, ma'am. What's your address...?”
+
+            \n\nIt's so close, too close. She's down on her back screaming when the medics get here, giving in at last to the pain ripping through her. And it seems only moments before I hear the baby's first cry.
+
+            \n\nThe paramedics are gone. They've given her a sedative, not enough to knock her out but just enough to put her at ease from the leftover pain.
+
+            \n\nThe look in her eyes as they laid the baby girl on her chest, that look says it all. Look what we did, they plead to me. Look, a little girl. Don't send us away now. Please?
+
+            \n\nI can see the top of its little pink head, with little wisps of hair, as it nurses on her tit. “She's beautiful,” I say, sitting on the edge of the sofa looking down at them.
+
+            \n\nShe looks up at me and smiles. “Thang k'you, Gretchen,” she says.
+
+            \n\nHmmm. In the time between waking and now, in the madness of giving birth, I don't remember telling anyone my name. The dispatcher only asked for the address. And I know the girl didn't ask, not in the bedroom, not over the coffee cup. And then she couldn't, once we both figured out the reason she was suffering.
+
+            \n\nI sigh. “Not a problem, Connie,” I hear myself say.
+
+            \n\nIf she's not Conrad, if she's a stranger... well, she still needs a roof over her head for a while. Until the baby is older. I don't know her name, so Connie will have to suffice.
+
+            \n\nAnd if she really is Conrad, it's a lousy name for the new baby's mother. Connie—that's a lot nicer, more feminine, a good name for a young woman who's just birthed a daughter.
+
+            \n\nThe baby is finished nursing now, asleep in the crook of Connie's arm. With her free hand, Connie pulls the robe over her breast, hiding the nipple. Looking fondly at them, I think... no matter what happened, she could be my daughter. I guess that means I'm a grandmother now. Maybe this is the way it's supposed to be, maybe it's all for a reason.
+
+            \n\nBut I'm still confused. What would you do? What would you do if a stranger, a pregnant woman, was lying beside you when you woke up? A stranger with your husband's face?\n"
+                android:textAlignment="textStart"
+                android:textColor="@color/white"
+                android:textSize="16dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.496"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/arrowCircle" />
+
+        </LinearLayout>
+
+        <!--        </ScrollView>-->
+    </ScrollView>
+</RelativeLayout>

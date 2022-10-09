@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@drawable/report_bg"
+    android:orientation="horizontal"
+    tools:context=".ReportHome">
+
+    <ScrollView
+        android:id="@+id/sv1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_above="@id/bottom_navigation">
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <RelativeLayout
+                android:id="@+id/toggleBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true">
+
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="520dp"
+                android:background="@color/teal_200"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:textSize="15sp"
+                android:padding="5dp"
+                android:fontFamily="@font/droidserif_italic"
+                android:text="Where your stress level stands \naccording to your occupation"
+                android:textColor="@color/dark_blue_300"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="920dp"
+                android:background="@color/teal_200"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:textSize="15sp"
+                android:padding="5dp"
+                android:fontFamily="@font/droidserif_italic"
+                android:text="According to your age"
+                android:textColor="@color/dark_blue_300"/>
+
+            <TextView
+                android:id="@+id/tvDate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginRight="20dp"
+                android:fontFamily="@font/droidserif_italic"
+                android:gravity="center"
+                android:text=""
+                android:textColor="@color/dark_blue_300"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <com.github.mikephil.charting.charts.BarChart
+                android:id="@+id/barChartDaily"
+                android:layout_width="325dp"
+                android:layout_height="350dp"
+                android:layout_below="@+id/toggleBtn"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="4dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginTop="80dp"
+                app:cornerRadius="13dp"
+                tools:ignore="MissingClass" />
+
+            <LinearLayout
+                android:id="@+id/btnLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/barChartDaily"
+                android:layout_marginTop="20dp"
+                android:background="@android:color/transparent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/weekly"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Weekly"
+                    android:textAllCaps="false"
+                    android:textColor="@color/dark_blue_300"
+                    android:textStyle="bold"></androidx.appcompat.widget.AppCompatButton>
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/monthly"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:text="Monthly"
+                    android:textAllCaps="false"
+                    android:textColor="@color/dark_blue_300"
+                    android:textStyle="bold"></androidx.appcompat.widget.AppCompatButton>
+
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/yearly"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:text="Yearly"
+                    android:textAllCaps="false"
+                    android:textColor="@color/dark_blue_300"
+                    android:textStyle="bold">
+
+                </androidx.appcompat.widget.AppCompatButton>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <View
+                    android:layout_width="2dp"
+                    android:layout_height="680dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="600dp"
+                    android:background="#000000" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+                    <View
+                        android:id="@+id/hi"
+                        android:layout_width="20dp"
+                        android:layout_height="2dp"
+                        android:background="#000000"
+                        android:layout_marginTop="620dp"
+                        android:layout_marginLeft="20dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="610dp"
+                        android:text="Job"
+                        android:textStyle="bold"
+                        android:textColor="#000000"/>
+                </LinearLayout>
+
+            </LinearLayout>
+            <com.github.mikephil.charting.charts.ScatterChart
+                android:id="@+id/chart1"
+                android:layout_width="232dp"
+                android:layout_height="295dp"
+                android:layout_marginLeft="104dp"
+                android:layout_marginTop="590dp" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <View
+                        android:id="@+id/hi3"
+                        android:layout_width="20dp"
+                        android:layout_height="2dp"
+                        android:background="#000000"
+                        android:layout_marginTop="1010dp"
+                        android:layout_marginLeft="20dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="1000dp"
+                        android:textStyle="bold"
+                        android:text="Age"
+                        android:textColor="#000000"/>
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <com.github.mikephil.charting.charts.ScatterChart
+                android:id="@+id/chart3"
+                android:layout_width="232dp"
+                android:layout_height="295dp"
+                android:layout_marginLeft="104dp"
+                android:layout_marginTop="990dp" />
+
+
+        </RelativeLayout>
+    </ScrollView>
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        app:itemBackground="@color/white"
+        app:itemIconTint="@color/teal_700"
+        app:itemTextColor="@color/teal_700"
+        app:menu="@menu/menu_navigation" />
+
+</RelativeLayout>

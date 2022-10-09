@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sea_bg"
+    tools:context=".SleepStory3">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/linear11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <ImageView
+            android:id="@+id/forestImg"
+            android:layout_width="wrap_content"
+            android:layout_height="240dp"
+            android:layout_marginTop="0dp"
+            android:src="@drawable/forest"/>
+
+        <TextView
+            android:id="@+id/theme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableEnd="@drawable/darktheme"
+            android:gravity="right |center"
+            android:onClick="btnTheme"
+            android:paddingTop="11dp"
+            android:textColor="@color/dark_blue_300"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="\n\n\nPowers come with a price"
+            android:textColor="@color/white"
+            android:textSize="45sp"
+            android:fontFamily="@font/bilbo"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:text="\n\n\n\n\n\n\n\n\n\n\n\nby Akshara       "
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            android:fontFamily="@font/roboto_medium"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    <ScrollView
+        android:id="@+id/scroll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/linear11">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/linear11"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/white_background"
+            app:layout_constraintTop_toBottomOf="@+id/linear11">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_marginTop="15dp"
+                android:text="  Dear Diary,
+
+\n\nToday, my friend asked me if I ever wished for a superpower. Many people compare a superpower with a superhero. Super speed? That would be Flash. Super strength? How about Superman, Captain America...and even the Hulk. But something a lot of people don’t realize is that a person with a superpower can just as easily become a super-villain.
+
+\n\nThat’s all just childhood rubbish though. Superpowers like the ones in comic books and movies don’t exist. At least not in the way they are portrayed. Superpowers aren't just randomly given to people who are gonna use them to save the world. You can’t just get bit by a spider or get hit by a meteor and suddenly be able to do impossible things with no consequences. Power doesn’t come easy. Power always comes with a price. And in this world, that price is pain.
+
+\n\nI've heard the old saying that power goes to people's heads, proves to be truer than you think. It twists your mind into something unrecognizable. The pain that follows attempting to contain and manipulate the forces that give one power is enough to rip you out of your head. It forces some perverse unrecognizable version back in.
+
+\n\nBut, the question my friend asked me, reminds me of my grandma...I remember her having a superpower. She could see through anyone's eyes, literally, and tell if they were telling the or lying. Not in the way everyone’s grandmother can tell when you’re lying about silly things. Not like stealing cookies from the cookie jar. She could come across a complete stranger and tell immediately look through their eyes and tell if they were lying or telling the truth. You could say a thousand different things, and with complete correctness, she could say what was truth and what was a lie. Isn't that just amazing?
+
+\n\nI begged her as a child to tell me where she got her powers, but she always used to brush it off. I remember her saying that some things were just too dangerous to know. But of course, that just made me want to know more. I wanted powers so bad. Just so I could run away from all of my problems. Run away from home and become a superhero, a good one.
+
+\n\nSo one day, when she caught me snooping through her diary for the hundredth time, she saw it enough to tell me of all these dangers.
+
+\n\nWhen my grandma was just 15 years old, her mother died. There was no casket at the funeral, just an urn with her ashes. Her father was still around, he loved and cared for her. And while he gave her anything else she asked for, he wouldn’t tell her how her mother died. No one else would too. The whole town just pretended like she had never even existed. Her dad was often gone at night and for long weekends. When she asked him where he was, he always had some reason. A distant relative was sick. Business travel. Visiting a friend. The farmer across town asked for help. But my grandma never really believed any of these things were true. Not completely.
+
+\n\nOne night when her dad was gone again, she decided to sneak into her mother’s old craft room. A place she had always been forbidden to go to. Inside the room, there seemed to be books, candles, and some strange herbs rather than craft supplies. There was also a simple-looking wooden chest, like a jewelry box. Inside it, there was a necklace with a gem my grandma had never seen before. It was the color black. No red. No silver. No green. But something odd was that every time she looked away from it, she could no longer remember the color!
+
+\n\nJust then, a bang at the front of the house startled her. So, she ran out the back and down to the river. She stripped down to nothing and waded out into the glitter of the stars reflected in the ripples. She put on the necklace and begged her mother for help. She wanted to be able to tell exactly when her father was lying to her about anything. To know when people were lying to her. And to know what happened to her mother. She begged and begged, and within minutes, she had fallen asleep. She slept until the sun rose again. With the days' new glow, she had her wish. She could tell when anyone was lying.
+
+\n\nAnd that’s where her story ended. When I asked her if she ever found out what happened to her mother, she said you should always be careful what you wish for. More than that she said there were consequences to always knowing the truth. A side effect of her new power was that telling a lie herself caused her immeasurable pain. The greater the lie was, the greater the pain.
+
+\n\nNevertheless, I was too stubborn to listen. I stayed obsessed with the idea of being ‘blessed’ with a superpower too. I also remember grandma telling me that she wasn’t the only one who had powers and that society knew these people existed, but it wasn’t encouraged. Their powers were too hard to contain, leading most of their lives to sad endings.
+
+\n\nShe told me that she watched everything happened, watched her friends slowly go insane, watched the people she loved most die or disappear, in slow motion. Every moment of their agony was forever etched in her memory in excruciating detail. Because while everyone else saw her moving quickly, she saw the world inching by at a snail’s pace. Every aspect of her being was sped up, including the ability of her brain to process things happening around her.
+
+\n\nWhat seemed a minute for most people was an eternity for my grandma. She witnessed every facial expression, every flash of pain through others' eyes. It took less than a year for all of her friends to lose their lives or disappear.
+
+\n\nI also remember the minute before she died, she held my hand and asked me to promise her something.“Promise me to be careful for what you wish for.”She said.
+
+\n\n“Yes, grandma. I promise,” I answered, nodding. She gave me a kiss on my forehead and the next minute...She was gone, gone forever.
+
+\n\nSometimes, I still wonder if there is more to the story with my grandma. But, just like she said, somethings' are just too dangerous to know.\n"
+                android:textAlignment="textStart"
+                android:textColor="@color/dark_blue_300"
+                android:textSize="16dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.496"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/arrowCircle" />
+
+        </LinearLayout>
+
+        <!--        </ScrollView>-->
+    </ScrollView>
+</RelativeLayout>

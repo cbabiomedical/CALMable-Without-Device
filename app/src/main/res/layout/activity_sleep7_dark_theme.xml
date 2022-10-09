@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sea_bg"
+    tools:context=".SleepStory7">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/linear11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <ImageView
+            android:id="@+id/forestImg"
+            android:layout_width="wrap_content"
+            android:layout_height="260dp"
+            android:layout_marginTop="0dp"
+            android:src="@drawable/christmasw"/>
+
+        <TextView
+            android:id="@+id/theme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableEnd="@drawable/theme"
+            android:gravity="right |center"
+            android:onClick="btnTheme"
+            android:paddingTop="11dp"
+            android:textColor="@color/dark_blue_300"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="\nThe Christmas Hat"
+            android:textColor="@color/black"
+            android:textSize="40sp"
+            android:fontFamily="@font/bilbo"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:text="\n\n\n\n\nby Tanya Humphreys
+       "
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:fontFamily="@font/roboto_medium"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    <ScrollView
+        android:id="@+id/scroll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/linear11">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/linear11"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/black_blackground"
+            app:layout_constraintTop_toBottomOf="@+id/linear11">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_marginTop="15dp"
+                android:text="  Miss Smithereen, as excited as her class, stood in front of the chalkboard. The short, spiney quills down her back poked through the soft red wool of her most Christmassy dress. She stamped her tiny hedgehog feet, shod in sensible black penny loafers, and clapped her tiny hedgehog paws together for attention.
+
+\n\nShe pushed her eyeglasses up her pointy black nose and said, “Now class, we still have an hour before the bell…”
+
+\n\nThe class of woodland animals groaned in unison. Eddie, an outspoken raccoon child, looked around at his classmates. Every whisker quivered, the room was infused with the elated electricity that only Christmas brings. He looked back at Miss Smithereen and noted the mischievous smile on her frosty, furry face. It was her tradition to let the class out early on the last day before Christmas vacation. ‘Will she do it again?’ He wondered.
+
+\n\nThe old hedgehog slowly walked to the door. She opened it and stepped aside, announcing, “Off you go! Merry Christmas!”
+
+\n\nTwenty-two, high pitched voices nearly brought down the roof with their cheers. The windows rattled in their panes like applause. As the class ran out the door, Miss Smithereen called out, “See you all in a week!”
+
+\n\nEddie shrugged into the warm winter sweater his gramma had made the year before. It was oatmeal colored, with a red zig zag pattern along the hem. He wore a red tasseled cap with matching mittens. He met up with Julian, a sleek-coated red weasel in a brown puffer jacket and wool cap with ear flaps, and Harley, a chipmunk wrapped nearly head to toe in a green woolen muffler and matching toque. Harley made up for his small size with a great lion-hearted personality.
+
+\n\n“Eddie said, “I think I’m getting some new Hot Wheels this year for my collection.”
+
+\n\n“I’m hoping for a beebee gun!” Exclaimed Julian.
+
+\n\n“I asked for a complete set of Dickens books.” Said Harley.
+
+\n\n“That’s so nerdy.” Laughed Eddie. “Shoulda asked for elevator shoes.”
+
+\n\n“Ha. Ha.” Harley said as he punched Eddie in the arm. “I can’t change being the smallest animal in the woods, but I can strive to be the smartest.”
+
+\n\n“Right on!” Exclaimed his friends, both giving him a high five. The three bundled up
+
+animals bounced along the snowy lane through the northern Montana forest.
+
+\n\nWoodsmoke slipped upwards, through the crisp, piney scented air. As they neared Eddie’s home, the pleasant wintry air was sweetened by the smell of hot cocoa and fresh ginger snaps. The boys ran the rest of the way to the cozy, hillside burrow.
+
+\n\n“Oh boy!” Said Eddie as he ran ahead of his buddies. Harley tried to run as well but tripped on his scarf. He got to his knees, gathered some snow in his paws and hurled a marble-sized ball at Eddie’s head. “Poof!” It erupted on impact into a flurry of icy white crystals that glittered to the ground.
+
+\n\nEddie said, “Oh yeah?” He molded a huge round snowball and chucked it at Harley. Since it was nearly half the size of the chipmunk, it bowled him over, and rolled with the chipmunk, picking up more snow. Harley became one big white ball with paws, feet, and the toque’s pom-pom sticking out.
+
+\n\n“Eddie Buttons! Go help your little friend up! Then come inside for cocoa and cookies!” His mother, Alice, stood in the open doorway.
+
+\n\nJulian took a shot at Eddie, his snowball nailed him in the ear, then Harley nailed Julian right between his ears. All three child animals shook snow from their fur and, laughing, went inside.
+
+\n\n***
+
+\n\nOn Christmas Eve, early in the morning, while mom, pop, and son were eating pancakes, a thump shook the front door of the raccoons’ home. Eddie ran to the door and flung it open in time to see their mail-badger trudging through a foot of fresh snow back to his little USPS mail wagon. “Thanks Mr.Poppinstuff!”
+
+\n\nThe tired old badger in the navy-blue uniform didn’t turn around but lifted a weary, mittened hand in acknowledgement. The matching hat with the eagle logo and faux fur ear flaps was pulled snugly over his grey furred head. His shoulders slumped and white breath-puffs like cotton balls drifted over his head.
+
+\n\nEddie looked down at his feet at the parcel the mail-badger had left.
+
+\n\nThe parcel was wrapped in shiny red and gold foil was as tall as his shoulders when he stood it on end. The name on the box was his- “oh boy!” He squealed in delight.
+
+\n\nAlice asked, “What is it dear?”
+
+\n\n“Something for me. Look.” He turned the box so she could see it. She frowned and looked at Will, her husband. He slowly shook his head and shrugged. The address was theirs: 831 Maple Lane, Mulebottom, MO. The return address said only, “From Santa.”
+
+\n\n“Can I open it?”
+
+\n\n“It’s only Christmas Eve son.” Said Will, a smile curled his mouth and twinkled in his eyes.
+
+\n\n“Awe Pops. You always let me open one the day before.”
+
+\n\n“What do you think Momma? Let the kid open one early?”
+
+\n\nEddie’s mother smiled and said to her husband, “he has been good this year…”
+
+\n\n“And I got three As last report card! And two Bs!”
+
+\n\nWill drew out the suspense another minute as Eddie bounced from foot to foot like a kid who has to pee- badly. At last, he said, “Go on, open it. I’m as curious as you are.”
+
+\n\nEddie said, “Uh huh.” Sarcastically. Every year his folks threw in a gift they’d labelled as “From Santa” even though they knew he didn’t believe in Santa Claus at the ripe old age of eleven.
+
+\n\nHe sliced the colorful wrapping paper with a sharp claw. It crinkled tumultuously as he pulled it off the white box inside. He opened the flaps.  “Woah.” He said and looked at both his parents. They were frowning and smiling uncertainly, like at any second it might start raining turnip pies. The note atop a pile of snow-white tissue paper read, “Made especially for you at Christmas.”
+
+\n\nHe pulled the thin paper aside…then frowned. “Whaaa---?”
+
+\n\nGingerly he poked the thing in the box. Then he screamed and backed away so quickly that he tripped over his tail, fell on his butt, and scrabbled like a crab across the room. His ear-blasting scream frightened his parents, both their fur stood on end, so bloodcurdling was the sound.
+
+\n\nHis mother, Alice, dashed forward and looked in the box. Her eyes turned to huge round planets as Will bent over the box. He reached into it and pulled out…a dead body?
+
+\n\nIt was a hat. A raccoon skin hat to be exact. As the tail flopped out like a thick, striped bristle brush, all three raccoons screamed.
+
+\n\nWill dropped it back into the box and kicked it across the wood floor.
+
+\n\n“What’s it mean Pop? Is it really…really…” the rest came out in a whisper, “a dead body?”
+
+\n\n“Well,” said Will, “it’s actually just the skin and pelt…and tail of a raccoon.”
+
+\n\n“Oh my.” Said Alice. “Who do you think it is? Who would do this?”
+
+\n\n“I don’t recognize him. And with no return address, it could be from anywhere.”
+
+\n\n“It had my name and our address on it. It’s from a serial killer.” Said Eddie with certainty.
+
+\n\nWill and Alice looked at their son. Neither said anything. Perhaps it was a serial killer playing with them. The thing in the box was utterly ghastly. What else could it be?
+
+\n\nWill locked the front door, then the back door in the kitchen too. He shuttered the windows and latched them tight. Alice silently washed the after-breakfast dishes while Will paced the living room floor while waiting for the police.
+
+\n\nWithin ten minutes, sirens wailed, and red flashing lights reflected off the snowy hillocks and tree trunks and branches, doubling their intensity into a discotheque type scene. In front of the burrow, the forest green sheriff’s car slid to a stop. The Sheriff, a silvery grey fox, and a Deputy skunk came to the door.
+
+\n\nAfter taking the body away and interviewing the shaken-up family, they left.
+
+\n\nEddie said, “Do you think they’ll catch the killer?”
+
+\n\nAlice said, “They have little to go on. They can’t autopsy on a skin.”
+
+\n\nWill added, “And death is an everyday occurrence in our animal world.”
+
+\n\n“But this is torture! It’s a cruel taunt that screams, ‘You’re next.’” Eddie wailed. “Animals kill for food, they don’t play with their food.”
+
+\n\n“Well, there was that cousin of yours…the cross-eyed one from your dad’s side---”
+
+\n\n“Mom! Seriously? He played tiddlywinks with his crawdads. This is different.”
+
+\n\nShe sighed and wrung her stubby little fingers together.
+
+\n\nEddie picked up the phone and called Julian’s number. He talked for only a minute, then put down the receiver. With a long face he said, “Julian’s parents won’t let him come over…”
+
+\n\nWill said, “You can’t really blame them. You can go over there if you like.”
+
+\n\n“No,” Eddie said softly, “He’s not allowed to hang out with me at all.”
+
+\n\n“Oh Honey,” said Alice, “I’m sorry.”
+
+\n\nEddie tried Harley’s number next. And got the same result. Harley’s father had practically hung up on him.
+
+\n\nEddie said with a small, wavering voice, “This is the worst Christmas ever.” He seemed so small right then, not eleven, but merely three years old.
+
+\n\n“Christmas isn’t until tomorrow. We have a feast to prepare, presents to open, songs to sing, and plenty of football on tv.” His dad said, trying to sound upbeat.
+
+\n\nEddie nodded gloomily and said, “I’ll be in my room. I don’t feel so well.”
+
+\n\n***
+
+\n\nAn hour later, Alice went to her son’s room, a steaming mug of hot cocoa in hand, a pile of marshmallows melting into a merry, goopy treat. She knocked softly on the door and said, “Eddie honey, I’ve made you some cocoa, just the way you like it…”
+
+\n\nWhen she got no answer, she opened the door. The room was empty.
+
+\n\n***
+
+Eddie ran down the path through the woods. It was growing dark, the snowy landscape bluely glowed, and black shadows grew larger and taller. He stopped often and looked around in every direction. He felt eyes on him. Malicious ones, hidden in shadows. Sticking out his red wool cap, his ears perked up like radar dishes, revolving this way and that, alert for the minutest of sounds.
+
+\n\nA branch snapped to his left, but he saw nothing there.
+
+\n\nHe turned back to the path and…”AAAAAAaaaaa!!!” Right in front of him!
+
+\n\nIt was Harley, bundled in a black muffler and matching toque. “Hi Eddie!”
+
+\n\n“You scared the snot outta me! What’re you doing out here?”
+
+\n\n“Coming to help you, bro. I snuck out. Julian wanted to come but his dad put locks on all their windows.”
+
+\n\n“This could be dangerous. I think I’m being followed.”
+
+\n\nHarley looked around. Only his beady little onyx eyes peered from his warm winter get-up.
+
+\n\n“Your ma made you another set, eh?”
+
+\n\nHarley nodded, “She always makes the scarf too long, she thinks it makes me look bigger.”
+
+\n\n“It does. Fatter.”
+
+\n\n“Thanks.”
+
+\n\n‘Snap!’
+
+\n\nHarley whispered harshly, panicky, “Did you hear---”
+
+\n\n“Shhhh! I told you!” Eddie hissed, then he whispered, “I’ve got to find that old mail-badger and find out where the box came from.”
+
+\n\n“The mail wagon’s on the other side of these woods.” Harley said.
+
+\n\n“Let’s get out of here.” Said Eddie. He started running. Harley started running…and tripped over the long scarf. He wrapped up the loose end and tied it tight. He ran after Eddie and caught up quickly- chipmunks are lightning fast…raccoons, not so much.
+
+\n\nThe black velvet curtain of sky fell and lights from the town blinked to life. There were just a few stars and a bright bold moon peeking out from between the low-lying charcoal clouds As they neared the edge of the forest, an enormous black shadow undulated over the sparkling, luminescent snow in front of them. They stumble-skidded to a stop. Eddie dove under a snowbank, pulling the chipmunk with him. They held their breath as the colossal shadow passed by them. It was as big as a Transformer Robot!
+
+\n\nAfter ten minutes, Harley peaked out from the snow. “Look.” He whispered and pointed to a boxy white truck with a red and blue eagle logo on the side. The engine was idling, plumes of silvery exhaust wafted over them. Eddie said, “That’s why the killer didn’t smell us, we’re downwind.” They got out of the freezing snow and shook it off.
+
+\n\nMr.Poppinstuff emerged from the truck, he clomped onto the snow covered road. His foot slipped and he caught the doorframe to catch his balance. He cursed under his breath.
+
+\n\n“Sounds like my dad,” said Harley.
+
+\n\nAs they watched, the stooped, old grey badger in the blue uniform rolled the back gate up a third, reached inside, and wrangled a heavy looking package out. It slipped through his mittened hands and dropped to the ground. Mr.Poppinstuff hopped on one foot a few times, cursing fresh utterances. He bent and retrieved the misbehaving package, then walked to the door of the last home at the edge of the woods.
+
+\n\n“ROOOOAAARRRR!” Hot, meaty breath bellowed across their backs! Without turning, they ran for mail truck. Footsteps pounded behind them! A paw half the size of Eddie’s whole body swiped at his sweater, shredding the soft, thick wool.
+
+\n\n“Yikes!” He squealed.
+
+\n\nHarley made it to the truck. He heard the cry and raced back to his friend. He unwound the long scarf and with it, ran circles in a Flash Gordon blur around the legs of the cougar. The cougar roared furiously, tottered on its tied together tip toes, and fell forward like fresh hewn timber. ‘Kaboosh-boom!’
+
+\n\nEddie and Harley ran to the mail truck and dove through the narrow opening.
+
+\n\nThe cougar’s paws whirred in a Tasmanian devil frenzy, the scarf was shredded in seconds. It bounded after its prey. At the mail truck, it swiped its monstrous paw through the opening. Eddie and Harley screamed. In the empty, boxy truck, the caterwauling vibrated the metal walls, and reverberated around them as if the little white truck had swallowed them alive.
+
+\n\nThe huge paw receded out the rolldown door like a snake whipping back after a strike. The boys looked at each other, shaking, eyes wide, the echoes of their screams faded, and silence ensued.
+
+\n\nWait! Not quite silent…A low, deep rumbling sound came to their ears.
+
+\n\nCurious, the raccoon and wee chipmunk dared to peek out the mail-truck door.
+
+\n\nThe killer cougar had backed up twenty feet. It wasn’t looking at the boys’ hidey hole, it was looking at…Mr.Poppinstuff!
+
+\n\nOnly it wasn’t Mr.Poppinstuff any longer.
+
+\n\nThe old mail-badger had transformed into a super-hero! He stood up straight on his hind legs and was nearly as tall as the confused cat. The badger hissed like a demon from hell and both boys would swear his eyes glowed crimson red like ominous, firey embers.
+
+\n\nThe cougar took a swipe at the demon badger. The boys heard the swish and gasped.
+
+\n\nThe badger screeched liked a banshee as he dodged the blow like a prize fighter. A champion one. The badger demon’s front paws whirred in the space between the two battlers and threatened to buzz the cat’s nose off like a chainsaw.
+
+\n\nThe cat backed up, roared, and swiped an enormous paw low.
+
+\n\nHe sent the badger tumbling backwards. And immediately pounced at the advantage. It pinned the badger down and would soon tear out his throat.
+
+\n\nEddie leapt from the mail truck and onto the huge cat’s head. As he futilely punched the head, he screamed at the cat, “YOU sent me that package! I know it! You’re a killer with a demented mind! You’ve been stalking me ever since! What is wrong with you?!”
+
+\n\nThe cat covered its vulnerable eyes with its paws and said, “What are you talking about?!”
+
+\n\nEddie screamed, “The body! The hat! The skin of one of my kin!”
+
+\n\nThe badger was standing again, red sparks flew from its eyes, its spittle flew like acid rain, it raised its arms with shiny, sharp black claws curled. As it lunged, the cat threw the raccoon off as if it were a rag doll. It shouted, “You all cray-cray!” And disappeared into the woods.
+
+\n\nMr.Poppinstuff was back in uniform, hat, and mittens. The boys, however, would never be able to see him as anything but a superhero. He said to Eddie, “What’s all this about a serial killer?”
+
+\n\nEddie explained his terrifying morning.
+
+\n\nThe mail-badger nodded with a finger aside his nose…thinking. At last, he said, “It was me---”
+
+\n\n“Whaaa---?!” Said the boys as they backed away with shocked, frightened faces.
+
+\n\nMr.Poppinstuff waved his mittens and said, “No, no, no! That’s not what I meant. I mean it is my fault for your terrifying morning. I misdelivered the package. It should have gone to the Eddie that lives at 831 Maple Way. He’s a grizzly bear.”
+
+\n\nThe boys stood like statues and gawped.
+
+\n\nThen they all laughed.
+
+\n\nMr.Poppinstuff said, “Well, I guess I’m not done for the night after all. Would you care to accompany me?”
+
+\n\nThe boys were so relieved, and enamored with the old guy, they said sure.
+
+\n\nMr.Poppinstuff said, “Hop in!” They did.
+
+\n\nThe badger whistled. Two snow-white reindeer bounded out from the woods. From behind the passenger’s seat the boys shared, the badger pulled out a harness, complete with jingly jangly jingle bells.
+
+\n\nIn minutes, they were soaring over the white, sparkling land. They headed north. The ground was a blur with very few lights, soon, no lights at all. They flew so fast, stars looked like comets.
+
+\n\nAt the North Pole they met Santa Claus. He gave the mail-badger an identical package to Eddie’s mistakenly delivered gift and another, smaller one with his name and address on it. Correct and complete and sure this time.\n"
+                android:textAlignment="textStart"
+                android:textColor="@color/white"
+                android:textSize="16dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.496"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/arrowCircle" />
+
+        </LinearLayout>
+
+        <!--        </ScrollView>-->
+    </ScrollView>
+</RelativeLayout>

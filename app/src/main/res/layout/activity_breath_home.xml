@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BreathHome"
+    android:background="@drawable/bg_1">
+
+    <ScrollView
+        android:id="@+id/sleepy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="55dp"
+            android:layout_marginEnd="55dp"
+            android:orientation="vertical"
+            android:padding="5dp">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="160dp"
+                android:text="B r e a t h"
+                android:textColor="#329D9C"
+                android:textSize="35dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:layout_gravity="center"/>
+
+            <Button
+                android:id="@+id/level1Btn"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:background="@drawable/home_main_btn"
+                android:paddingStart="35dp"
+                android:text="Breathing Level 1"
+                android:textColor="@color/white"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:layout_marginTop="60dp"/>
+
+            <Button
+                android:id="@+id/level2Btn"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/home_main_btn"
+                android:drawableStart="@drawable/ic_lock_icon"
+                android:paddingStart="12dp"
+                android:text="Breathing Level 2"
+                android:textColor="@color/white"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+            <!--android:drawableStart="@drawable/ic_lock_icon"/-->
+
+            <Button
+                android:id="@+id/level3Btn"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/home_main_btn"
+                android:drawableStart="@drawable/ic_lock_icon"
+                android:paddingStart="12dp"
+                android:text="Breathing Level 3"
+                android:textColor="@color/white"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+            <!--android:drawableStart="@drawable/ic_lock_icon"/-->
+
+            <Button
+                android:id="@+id/level4Btn"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/home_main_btn"
+                android:drawableStart="@drawable/ic_lock_icon"
+                android:paddingStart="12dp"
+                android:text="Breathing Level 4"
+                android:textColor="@color/white"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/level5Btn"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/home_main_btn"
+                android:drawableStart="@drawable/ic_lock_icon"
+                android:paddingStart="12dp"
+                android:text="Breathing Level 5"
+                android:textColor="@color/white"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/level6Btn"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/home_main_btn"
+                android:drawableStart="@drawable/ic_lock_icon"
+                android:paddingStart="12dp"
+                android:text="Breathing Level 6"
+                android:textColor="@color/white"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

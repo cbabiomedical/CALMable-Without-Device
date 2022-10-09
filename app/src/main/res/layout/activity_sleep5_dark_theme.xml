@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sea_bg"
+    tools:context=".SleepStory5">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/linear11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <ImageView
+            android:id="@+id/forestImg"
+            android:layout_width="wrap_content"
+            android:layout_height="240dp"
+            android:layout_marginTop="0dp"
+            android:src="@drawable/forest"/>
+
+        <TextView
+            android:id="@+id/theme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableEnd="@drawable/theme"
+            android:gravity="right |center"
+            android:onClick="btnTheme"
+            android:paddingTop="11dp"
+            android:textColor="@color/dark_blue_300"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="\n\n\nMoony"
+            android:textColor="@color/white"
+            android:textSize="45sp"
+            android:fontFamily="@font/bilbo"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:text="\n\n\n\n\n\n\n\n\n\n\n\nby Valerie June       "
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            android:fontFamily="@font/roboto_medium"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    <ScrollView
+        android:id="@+id/scroll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/linear11">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/linear11"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/black_blackground"
+            app:layout_constraintTop_toBottomOf="@+id/linear11">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_marginTop="15dp"
+                android:text="  It was a night like any other and, unfortunately, the loud activity of the night made it quite difficult to catch onto a dream and drift off to sleep. But a little girl knew better than to chase her dreams, anyway.
+
+\n\nA howl from a stray dog mixed in with nature’s nightly lullaby. The crashing of ocean waves sounded like cymbals against the shore and the whistling of the wind was frighteningly similar to that of a sigh or a forlorn echo.
+
+\n\nTime stood still during this single magical moment. However, the usual pale body of light seen at this hour was temporarily shrouded by the dense clouds.
+
+\n\nA little girl, roughly nine years old, laid wide awake in her small spring bed. She was waiting for the ancient grandfather clock downstairs in the orphanage’s main hall to strike midnight with its customary ring. That strike would (hopefully) announce the arrival of a friendly stranger.
+
+\n\nHer little heart beat in a steady rhythm, like a song in itself, gently pulling her into a deep sleep. The girl’s eyes fluttered close on their own accord.
+
+\n\nA second or possibly a minute later, she roused and scolded herself. It was a close call; too close. She couldn’t drift off, though the temptation was strong. She made a promise to him and wasn’t willing to break it.
+
+\n\nThe gentle thrum of a whirring fan above cooled her slightly moist face. She was grateful for it and shifted her position on the bed. A soft cre-e-ak, courtesy of the old springs in the bed, echoed along the orphanage girls’ packed dormitory.
+
+\n\nTucked inside the crook of the girl’s right elbow was a small handcrafted doll she christened with the name Margit, after one of her favorite late grandmothers. The doll’s cheeks were a soft rosy pink with seaweed green eyes stitched carefully into the felt. A tangled mop of blonde curls spilled out everywhere.
+
+\n\nMargit was a spitting image of the girl’s own appearance. After all, the doll was designed to be a replica of its owner. The girl was very lucky her orphanage was more lenient than most. They let the girls keep their belongings and even gave them an education. Anyway, Margit was a birthday present from last year when the girl turned eight years old.
+
+\n\nOn that birthday she still had two living parents and a little brother. Oh, how very much could change in a mere three hundred and six days.
+
+\n\nAt the thought of her loved ones, the girl’s chest seized up in pain and her eyes filled with tears. She brought Margit closer to her and kissed the doll’s cheek as if she were alive.
+
+\n\nAll of a sudden, the girl felt small and insignificant and curled up into a ball under the threadbare bedsheets. The memories of her family tortured her every night. Some nights, however, she would spend the cold hours reminiscing over happier times when the orphanage wasn’t her home.
+
+\n\nOther times, an all too vivid image of a car colliding with another flashed through her mind. She tried to focus on the joyful ones, but her mind was wild and untamed. It was the luck of a draw whether the memory remembered was a happy or sad one. Tonight, it was the girl’s lucky day.
+
+\n\nA happy memory in particular stuck out. This memory was like a page in a book that had been read and dog-eared too many times to count. She didn’t mind browsing through the same page and neither did the book.
+
+\n\nShe closed her eyes, not to sleep but to imagine and feel the rays of sunshine bearing down on her exposed back. She was instantly transported to a sunny day at the beach. It was midafternoon and her parents waved to her and her younger brother, who were building a sandcastle together down by the shore.
+
+\n\nIt wasn’t how much of a “castle” it looked like that’s important but, rather, the process. The process would forever be imprinted in memory, binding hearts and souls together.
+
+\n\nA single tear fell from the girl’s left eye. It tickled her cheek as it slowly slid down her face. Soon enough, it noiselessly made contact with the sheets.
+
+\n\nA tear was not a sign of weakness, though that cliche had infested many minds. Tears were a language from the heart you used when words lacked the comfort needed to soothe.
+
+\n\nAnother tear fell. It was hard to stop when the thrill of speaking fluently was so great. But the brave little girl put a cork on her crying. It would only make her more tired and that would not do. She must wait for him. She promised she would.
+
+\n\nA light breeze coming from a window in the girls dormitory disturbed the curtains, causing them to billow in and out in a haunting ghost-like manner.
+
+\n\nThe fresh ocean air ventilated into the stuffy room. It wasn’t necessary for the girl (or anyone else in the room) to strain their ears to hear the powerful waves crashing onto the shore, especially at this peaceful yet suspenseful hour.
+
+\n\nShe was restless and longed to venture outside but knew she must wait until he came. It was hard for her to wait and she had never been the patient type.
+
+\n\nAnother weak breeze blew into the room through the open window and then that’s when she heard it: the dull ringing of the grandfather clock.
+
+\n\nHalfway through counting the clock’s methodic rings, she was certain she heard the window scrape softly along its partly rusted hinges. In immediate fear she buried herself under the threadbare sheets.
+
+\n\nHer little heart raced a million beats per minute as her palms began to grow clammy. She strained her ears to listen for the signal. The heat under the sheets was stifling.
+
+\n\nOne, two, three soft taps on the window. A sigh of relief escaped her lips as she threw the sheets off and leapt out of bed with the grace of a cat. Her trusty companion, Margit, was naturally by her side.
+
+\n\n“It’s me,” a voice whispered, breaking the dutiful ticking of the clock. It was very dark and the girl couldn't see anything, but the creak of the wooden floor and the mysterious yet familiar voice told her she was not alone.
+
+\n\n“I know,” she murmured back, blindly reaching for her tattered slippers in the dark. At last she found them tucked under her bed and slid them on. She edged toward the open window where she found a dark human looking figure precariously sitting on top of the sill.
+
+\n\n“You should come inside. I don’t want you to catch a cold.”
+
+\n\n“I’ll be fine.”
+
+\n\nThe girl nodded. The figure at the window watched her every move like a hawk and nothing escaped his notice. She moved closer over to the strange figure on her thin yet strong legs and reached out to him with one of her hands.
+
+\n\n“Hello,” she began, latching onto the strangers’ hand. The stranger didn’t bother to resist the girl’s hold.
+
+\n\n“Salutations,” he said stiffly. He tried being kind, but being kind was never his forte.
+
+\n\n“Salutations, indeed.”
+
+\n\nIt sounded foreign in her mouth, but she was delighted by the way her lips moved to form the word. There was silence on both ends, but it wasn’t awkward at all. They preferred to think of it as companionable silence.
+
+\n\n“Why do you like me?” the stranger suddenly blurted out. “Why waste your precious hours of sleep. . . on me?”
+
+\n\nWithout a second’s pause she replied without hesitation. “Because I like your company. You make me happy.”
+
+\n\nHe sighed quietly and looked past the girl into the room full of slumbering angels. She was too naive and young and pure to understand. “I am a monster, but you already know that.”
+
+\n\n“I know. But you don’t look like a monster,” she said innocently, toying with Margit.
+
+\n\n“Oh, let me tell you a secret young one. The really bad monsters never look like monsters.”
+
+\n\nThe stranger’s rough voice cut the air like a dagger, immediately sending shivers down her back. Without saying a word more the figure slipped out of her grasp and off the window sill, vanishing into the moonless night.
+
+\n\n“Wait!” she shouted, hoping he heard her desperate call. She strained her ears to listen for any sign of his return, but she heard nothing except the occasional sound of the haunting wind and the continuous crash of the ocean waves.
+
+\n\nThe girl pulled her doll close to her chest for comfort. Her heart ached with loneliness at the prospect that her friend had abandoned her without so much as a goodbye.
+
+\n\nA few seconds later a large hand the size of a baseball mitt rested on the sill again. A grimy face with matted chestnut hair streaked with gray followed the hand. There was a wild yet calming look in his eyes as if he were coping with an internal storm.
+
+\n\n“You’re back,” she stated simply. However, the look in her eyes was anything but simple. She was overjoyed he returned.
+
+\n\n“Yes. You called for me.”
+
+\n\n“I did.”
+
+\n\n“I can’t stay for long.”
+
+\n\n“I know, but why? Why do you leave me alone each and every night to the demons inside my head?”
+
+\n\n“Oh, believe me when I say this. I’d love to stay here with you all night if I could. I would, I really would. But I can’t. I can’t ignore it, no matter how hard I try to resist the urge.”
+
+\n\n“But what is so much more important to you than me?” The girl was so shocked at her impertinence that she covered her mouth with her hands. “I’m sorry,” she whispered, clearly ashamed at her rudeness.
+
+\n\nHe pretended like he didn’t hear the apology. He didn’t want her to apologize because it was never her fault. It wasn’t his either.
+
+\n\n“A date.”
+
+\n\n“What?”
+
+\n\n“A date is what keeps me from staying with you,” he spat out bitterly. He said ‘date’ as if it were something poisonous or toxic.
+
+\n\n“Like the fruit?” she asked, now very confused. “A fruit is more important than. . . than me?” Her previous fury subsided to ash in an instance.
+
+\n\n“No, my dear! Not at all. You are more precious and dear to me than anything on this earth.”
+
+\n\n“You think so?”
+
+\n\nHe bowed his majestic head in a slow nod. “I do.”
+
+\n\nShe smiled and walked over to him. “Then what did you mean when you said a ‘date’ is more important than me?” She cocked her head ever so slightly like a curious puppy would.
+
+\n\n“It’s complicated,” he said tiredly, even though it really wasn’t.
+
+\n\n“Tell me. I can at least try to understand.”
+
+\n\n“Of course you will.” He smiled goodnaturedly and ruffled his hair. “We’ll start off simple, then. You know how you receive traits from your parents, like eye color and height?”
+
+\n\nAt the mention of ‘parents,’ the girl’s eyes moistened. A tender stroke of the monster’s hand on her blonde curls kept the dam from bursting. She gazed up into his eyes and whispered a soft ‘yes.’
+
+\n\n“Good. Well. . .” He paused, a look of thoughtful concentration on his face. “Well, I received a nasty trait. One that is very, very bad.”
+
+\n\n“Oh.”
+
+\n\n“Oh, indeed.”
+
+\n\n“And so just because of that one trait, it makes you a monster?”
+
+\n\n“Yes! Exactly.”
+
+\n\n“But I don’t see how that’s possible. Isn’t there a cure?”
+
+\n\n“No, unfortunately there isn’t. Not yet anyway.”
+
+\n\n“What about this date you talked about? You didn’t mention that.”
+
+\n\n“The date, right. Well, without that date my inner monster would never be unleashed.”
+
+\n\n“Easy! We just need to get rid of this date.”
+
+\n\nHe let out a laugh similar to a bark. It didn’t last long but it was enough to make the girl smile, slightly thawing the cold night. The stranger returned to his former serious tone. “Ah, if only it were that easy.”
+
+\n\nHe looked away from her for the first time during their conversation and into the pitch black night. The clouds were now a faint grey, no longer as black as coals. The moon was somewhere behind them, itching to free itself from its prison.
+
+\n\n“I should go — right now.” Fear pulsed through each word, chilling the girl’s blood. She had never seen her friend this uptight or nervous.
+
+\n\n“Let me come with you.”
+
+\n\n“No,” he said firmly. “A little girl like you should never see what I, a monster, am capable of.”
+
+\n\n“I don’t want you to be alone. I know what it feels like,” she insisted.
+
+\n\n“I’ve been alone all these years, and I’m still here. I think I can survive on my own a bit longer.” He scowled and bared his teeth, gnashing them together angrily like a wolf.
+
+\n\nNow it was his turn to cover his mouth with his hands. “No, no! I didn’t mean it like that. I promise!”
+
+\n\nThe girl backed away from him in total fear. In the process, she dropped her doll. The monster picked it up and reached it out to its owner.
+
+\n\n“Ella,” he pleaded. “Please. I won’t hurt you.”
+
+\n\nShe opened her mouth, then closed it. Nothing came out. “O-o-ok,” she stuttered at last. “I trust you.”
+
+\n\n“Good, good. But you must listen to what I have to say very carefully. My time is running out.”
+
+\n\nShe nodded as she slowly walked across the length of the room toward the monster. “I’m listening.” She retrieved the doll from his large hands and let it dangle by her legs.
+
+\n\n“You must not, by any means, follow me. And you can’t ask me any questions. Do you understand?”
+
+\n\nThe girl responded with a firm,“I do.” Ella was never a mischief maker or rulebreaker. It was why many of the orphaned girls believed she would get adopted any day now. Her chances of adoption were high anyway, what with her young age.
+
+\n\n“Wait!”
+
+\n\nHe raised an eyebrow and then winced in pain, massaging his temple. “What is it?” The action went unnoticed by the girl.
+
+\n\n“I never got your name.”
+
+\n\n“Hmm. Call me Moony.”
+
+\n\n“Ok. . . Moony.”
+
+\n\n“Goodbye, little one. Until next time.”
+
+\n\n“Same time tomorrow?”
+
+\n\n“I think you already know the answer to that.” He winked.
+
+\n\n“Yes, I do.”
+
+\n\n“But before I go, take this.” Moony handed her a rectangular object covered in foil from a pocket in his shabby and patched coat. “Here.”
+
+\n\n“What is it?”
+
+\n\n“Chocolate. My father loved the stuff.”
+
+\n\n“Loved? What happened to your father?”
+
+\n\n“I’m not sure. I was told he fought bravely in battle; never made it out.”
+
+\n\n“And your mother?”
+
+\n\n“Same reason.”
+
+\n\n“Oh. I’m sorry, but I understand. You’re not alone, Moony. You never will be.”
+
+\n\nWith a mischievous smile and sharp nod of his head, Moony vanished into the cloudy night. Well, it wasn’t so cloudy and dark anymore. The moon was obviously getting restless from its time in cloud prison. The same with the stars.
+
+\n\nThe girl and her doll creeped back into bed, satisfied with the visit from her nightly visitor. As she snuggled under the covers, she whispered the name of her friend over and over to herself. She loved the way it rolled off her tongue.
+
+A sigh of contentment escaped from her lips as she turned over in bed. Ella shut her eyes and, this time, for the promise of sleep. Maybe if she was lucky again she would relive a couple happy memories with her family.
+
+\n\nCuddling up with Margit, the only family she had left, she followed the scent of sugar plum fairies to meet and chase her wildest dreams.
+
+\n\n***
+
+\n\nEarly morning light shines in through the girl’s dormitory and everyone is still in bed, fast asleep. Well, everyone except for a little girl with green eyes and blonde hair who is hunched over her bed, staring at something in her lap.
+
+\n\nIn her hands is a battered and empty leather notebook. Beside her is a beautiful fountain pen that looks too magnificent to be seen or used in an orphanage. The girl opens the notebook and smells the rich creamy pages. A few words are scrawled in black ink at the top of the first page. It reads:
+
+\n\nHappy birthday, my Ella! I love you and always will.
+
+\n\nThat’s it. It’s left unsigned, but the girl has a feeling she knows who wrote those words. She takes a shaky breath and picks up the fountain pen. Ella taps the pen on the notebook paper and bites her lip, unsure of what to write. After more than a few minutes a burst of inspiration breaks through, she finally begins like this:
+
+\n\nIt was a night like any other and, unfortunately, the loud activity of the night made it quite difficult to catch onto a dream and drift off to sleep. . .\n"
+                android:textAlignment="textStart"
+                android:textColor="@color/white"
+                android:textSize="16dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.496"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/arrowCircle" />
+
+        </LinearLayout>
+
+        <!--        </ScrollView>-->
+    </ScrollView>
+</RelativeLayout>

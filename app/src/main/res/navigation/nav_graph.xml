@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.calmable.HomeFragment"
+        android:label="CALMable"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/relaxFragment"
+        android:name="com.example.calmable.RelaxFragment"
+        android:label="Relax"
+        tools:layout="@layout/fragment_relax" />
+    <fragment
+        android:id="@+id/challengerFragment"
+        android:name="com.example.calmable.ChallengerFragment"
+        android:label="Challengers"
+        tools:layout="@layout/fragment_challengers" />
+    <fragment
+        android:id="@+id/journalFragment"
+        android:name="com.example.calmable.JournalFragment"
+        android:label="Journal"
+        tools:layout="@layout/fragment_journal" />
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.example.calmable.ProfileFragment"
+        android:label="Profile"
+        tools:layout="@layout/fragment_profile" />
+</navigation>

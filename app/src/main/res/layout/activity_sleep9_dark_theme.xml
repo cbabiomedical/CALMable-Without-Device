@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sea_bg"
+    tools:context=".SleepStory9">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/linear11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <ImageView
+            android:id="@+id/forestImg"
+            android:layout_width="wrap_content"
+            android:layout_height="240dp"
+            android:layout_marginTop="0dp"
+            android:src="@drawable/pound"/>
+
+        <TextView
+            android:id="@+id/theme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableEnd="@drawable/darktheme"
+            android:gravity="right |center"
+            android:onClick="btnTheme"
+            android:paddingTop="11dp"
+            android:textColor="@color/dark_blue_300"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="\n\n\nCharlie and the pound coins"
+            android:textColor="@color/white"
+            android:textSize="41sp"
+            android:fontFamily="@font/bilbo"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:text="\n\n\n\n\n\n\n\n\n\n\nby Julian Race
+
+       "
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            android:fontFamily="@font/roboto_medium"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    <ScrollView
+        android:id="@+id/scroll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/linear11">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/linear11"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/black_blackground"
+            app:layout_constraintTop_toBottomOf="@+id/linear11">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_marginTop="15dp"
+                android:text="  Are you coming tonight came the dulcet tones of the local beautician hoping to confirm another victim’s presence to her widely publicised lip inflator party being held later that day. No came the sharp reply whose voice I recognised to be my neighbour albeit heard through the open top window of my double glazed front room window. I’ll speak to you later was her final words as her garage door slammed shut preventing further discussion and putting an impenetrable barrier between herself and the advancing beautician.
+
+\n\nMy neighbour, Hortense who one could affectionately describe as having sixpence short of a bob at the best of times or for those born after UK decimalisation, two pence short of a pound, or for those US readers, a nickel short of a dollar!
+
+\n\nBy the noise permeating through the walls she had just received some disturbing news. I heard her phone ring and I could hear muffled and hurried confirmations. Her tone was edged with concern; she had received some worrying news and had to suddenly rush up to Manchester to visit her daughter.
+
+\n\nWell, when I say rush, that was before she had checked the back door was locked several times, wrote three separate notes for the milk delivery man and by the way, she does not have a milk delivery man, checked that the shed door was closed at least twice and switched the stairway light on and off a dozen or more times as if sending some secret code.
+
+\n\nWithin a few seconds the doorbell began to ring at a rate of eight rings per second. Sensing it was Hortense trying to attract my attention coupled with that distinctive electrical burning smell coming from the doorbell unit; I rushed through the integral garage and opened the side door.
+
+\n\nIn a whirlwind, I felt a key pressed into the palm of my hand and what felt like a leather strap hooked over my erect thumb. Before I knew what was happening Hortense had disappeared up the driveway and into a waiting taxi, all the time screaming instructions to me over her shoulder which continued whilst inside the taxi, albeit muffled until she wound down the window, much to the gratitude of Mr. Singh the local taxi driver.
+
+\n\nI looked down at the key and the leather strap hooked onto my thumb and suddenly felt a warm glow permeating though my right trouser leg and sock. It took a second to realise that the leather strap was attached to a fully grown golden retriever who had decided it was a good opportunity to empty his bladder whilst also leaving his scent all over my right leg and foot.
+
+\n\nHaving shaken my leg of the excess liquid, I calmly shouted my wife and asked if she knew anything about the dog. Apparently, she had agreed with Hortense that should the need arise, we would look after both “Charlie” the dog and “Tinkle” the cat.
+
+\n\nThis raised another discussion as to whether Hortense had got the names the correct way around, apparently she had!
+
+\n\nI guided Charlie into our newly refurbished utility room, nervous for the Victorian floor tiles I had painstakingly laid only weeks before, the swelling only having just reduced around my knee caps!
+
+\n\nFurthering the discussion with my wife as to where Hortense had got the animals from, she enlightened me to the fact that Hortense was looking after the two animals, Charlie and Tinkle, for her daughter who was ill in Manchester and was struggling to look after them. Unfortunately, the head cold her daughter was suffering from had turned into a cough and Hortense being Hortense had to be by her daughters side in this hour of need and therefore it fell to us to look after them in her absence.
+
+\n\nIn hindsight, I suppose it was a mistake to hook Charlie’s lead onto the fridge door handle, because when I returned to the utility room to check on him, he had opened the fridge door and was chomping his way through a very nice beef fillet joint that we had scrimped and saved up for since last July and was meant for our Sunday lunch.
+
+\n\nLet’s face it, there was no point in shouting at Charlie, I mean, what can you say that a dog could understand? Besides, he may well have bitten me! For all we know, in Charlie’s mind he probably mistook the joint for the cheeks of the postman’s backside but without the wrapping! How could he know it was our Sunday lunch?
+
+\n\nIn fairness to Charlie, I quickly discovered that generally he was a quiet dog, did not jump up or run after anything he did not want to and only licked his nether regions once; unfortunately that was when the vicar popped in for a cup of tea one day but apparently encouraged him to join a yoga class.
+
+\n\nSaturday was always shopping day, unless my wife decided we would do it on a Sunday for some valid reason only she could understand, so I loaded Charlie onto the back seat of the car. My wife got into the passenger side and off we went to do the weekly shopping at Waitsons Supermarket in Worditch.
+
+\n\nWe used to use all the local shops until they closed down due to high rent prices which forced everyone to use supermarkets. Still, the loyalty card comes in handy, only another ten thousand pounds to spend and I get a free bag for life if I use the points or I can put the ten pence towards something else!
+
+\n\nWhen we arrived at the supermarket, I opened the car windows slightly to give Charlie a bit of air whilst we went in to do the shopping. Before we had got ten yards away from the car, Charlie had started barking. I returned back to the car and immediately the barking stopped. I sneaked away from the car hoping that Charlie had not seen me, but his beady eyes spotted me and he barked again. There was no alternative but to stand outside the shop with Charlie whilst my wife went in and did the weekly shopping.
+
+\n\nI stood by the entrance door out of the way of incoming shoppers and as good as gold, Charlie sat down next to me. It was a sunny day and the sun was shining in my eyes, so I popped on my sunglasses to prevent me from squinting and adding another five wrinkles to my already furrowed brow.
+
+\n\nWithin a few minutes a small elderly lady with a stick limped towards Charlie, patted him on his head and without a word, walked away. That was nice of her I thought and looked down at Charlie who remained as still as a statue. I noticed a two-pound coin resting on his head and bemused as to how it got there, removed it and put it in my pocket. Within a few seconds another elderly lady patted Charlie on the head and walked away. Again, I looked down at Charlie and this time there was a one-pound coin on top of his head. Thinking I was imagining things, I removed the coin and put it in my pocket and then checked Charlie’s head again looking for more coins.
+
+\n\nIt took my wife forty-five minutes to do the shopping, five minutes to put the week’s food shopping into the trolley and forty minutes perusing the make-up and clothing aisles!
+
+\n\nBy this time and after keeping a running calculation, I had approximately one hundred and seventy-five pounds and three washers divided into my four trouser pockets! My trusty belt was struggling with the additional weight despite ratcheting it up to its final notch.
+
+\n\nI started to perspire, what with the grip my belt had on my stomach, and fearing that the weight of the coins in my pockets would overcome the grip the belt had on my hips. I could see the headlines before me in Worditch News, “Man with dog exposes himself outside Waitsons” next to a quarter page advert for Waitsons mini sausage with meat balls!
+
+\n\nJoy overcame me as my wife sauntered out of the customer exit. A mental calculation revealed twenty pounds worth of food and one hundred and sixty pounds worth of jumpers, skirts and various items of underwear.
+
+\n\nI quickly explained my plight and she offered me an empty “Janet”.
+
+\n\n(Just to explain what a “Janet” is, my other next-door neighbour refers to his wife Janet as “A Bag For Life”, hence why we nicknamed our bag for life “Janet”, not that I in any way condone this degrading tag he has for his wife, it’s just that she does not mind him calling her a bag for life and she always says that it is a reminder to him about his marriage vows and agrees that she is in fact “A bag for life”!)
+
+\n\nSo, I emptied all the money from my pockets into “Janet”, quickly slackened my belt to its normal position and ventured home with “Janet”, the shopping, my wife and Charlie.
+
+\n\nIt wasn’t until two weeks later with Charlie safely back with Hortense that I managed to unravel the mystery of the ever mounting coins.
+
+\n\nI opted to do the weekly shopping on the way home from work as it was cheaper for me to do it alone than with my wife, so popped into Waitsons. I walked over towards the entrance and was so shocked; I stopped dead in my tracks. Thinking I was in an episode of “Goodnight Sweetheart” and had been transported back through an invisible time portal, I saw what looked like “me” standing by the entrance of the shop and a dog stood next to “me” which, from this distance was the double of Charlie.
+
+\n\nI gathered my wits, yes wits, and edged towards the man and the dog. The man was even wearing sunglasses, just as I did. This was too spooky for words! Just as had happened with me, people were walking up to this impostor that was trying to be Charlie and tapping him on the head before walking into the shop. I stormed up to the man to confront him, keeping a little distance away from his Charlie in case he bit me.
+
+\n\nI glanced down at his Charlie and saw that his Charlie had a large slot on top of his head and was actually not a real dog at all but was made of plaster. I realised my mistake and my initial anger for this doppelganger subsided. In my own defence, how could I have read the sign by the dog’s feet saying “Guide Dogs for the Blind” from halfway across the car park? I quickly rummaged in my pocket and retrieved a two-pound coin and popped it into the slot on the dogs head.
+
+\n\nA few seconds passed before the man walked away and joined a lady who was coming out of the supermarket exit door. Not wishing to appear a total fool, I hurried into Waitsons for safety. I passed the security guard who was in conversation with the store manager and I overheard one say to the other, “I see you have the guide dog collection box back then, how long was it missing for? About two weeks replied the other!
+
+\n\nThere may be a moral to this story, but right now I just cannot think of one! Anyone need any change?”\n"
+                android:textAlignment="textStart"
+                android:textColor="@color/white"
+                android:textSize="16dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.496"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/arrowCircle" />
+
+        </LinearLayout>
+
+        <!--        </ScrollView>-->
+    </ScrollView>
+</RelativeLayout>

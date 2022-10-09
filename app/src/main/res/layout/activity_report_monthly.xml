@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@drawable/report_bg"
+    android:orientation="horizontal"
+    tools:context=".ReportMonthly">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/bottom_navigation"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="0dp"
+        android:gravity="center">
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <RelativeLayout
+                android:id="@+id/toggleBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true">
+
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginRight="20dp"
+                android:fontFamily="@font/droidserif_italic"
+                android:gravity="center"
+                android:text="Monthly Report Page"
+                android:textColor="@color/dark_blue_300"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvDate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="80dp"
+                android:layout_marginRight="20dp"
+                android:fontFamily="@font/droidserif_italic"
+                android:gravity="center"
+                android:text=""
+                android:textColor="@color/dark_blue_300"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <com.github.mikephil.charting.charts.BarChart
+                android:id="@+id/barChartMonthly"
+                android:layout_width="325dp"
+                android:layout_height="250dp"
+                android:layout_below="@+id/toggleBtn"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="4dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginTop="110dp"
+                app:cornerRadius="13dp"
+                tools:ignore="MissingClass" />
+
+            <LinearLayout
+                android:id="@+id/btnLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/barChartMonthly"
+                android:layout_marginTop="50dp"
+                android:background="@android:color/transparent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/daily"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Daily"
+                    android:textAllCaps="false"
+                    android:textColor="@color/dark_blue_300"
+                    android:textStyle="bold"></androidx.appcompat.widget.AppCompatButton>
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/weekly"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:text="Weekly"
+                    android:textAllCaps="false"
+                    android:textColor="@color/dark_blue_300"
+                    android:textStyle="bold"></androidx.appcompat.widget.AppCompatButton>
+
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/yearly"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:text="Yearly"
+                    android:textAllCaps="false"
+                    android:textColor="@color/dark_blue_300"
+                    android:textStyle="bold">
+
+                </androidx.appcompat.widget.AppCompatButton>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/placeLayout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/btnLayout"
+                android:layout_marginTop="32dp"
+                android:background="@android:color/transparent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tv1"
+                    android:layout_width="200dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:paddingStart="16dp"
+                    android:layout_marginStart="6dp"
+                    android:text="Most Stressed Places :"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/tv4"
+                    android:layout_width="160dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="60dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_toRightOf="@id/tv1"
+                    android:text="View"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/personLayout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/placeLayout"
+                android:layout_marginTop="20dp"
+                android:background="@android:color/transparent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tv2"
+                    android:layout_width="200dp"
+                    android:layout_height="match_parent"
+                    android:layout_below="@id/tv1"
+                    android:paddingStart="16dp"
+                    android:text="Most Stressed Person :"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tv5"
+                    android:layout_width="200dp"
+                    android:layout_height="match_parent"
+                    android:layout_below="@id/tv4"
+                    android:layout_marginRight="10dp"
+                    android:layout_toRightOf="@id/tv1"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/timeLayout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/personLayout"
+                android:layout_marginTop="20dp"
+                android:background="@android:color/transparent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tv3"
+                    android:layout_width="200dp"
+                    android:layout_height="match_parent"
+                    android:layout_below="@id/tv2"
+                    android:paddingStart="16dp"
+                    android:text="Most Stressed Time    :"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+
+                <TextView
+                    android:id="@+id/tv6"
+                    android:layout_width="200dp"
+                    android:layout_height="match_parent"
+                    android:layout_below="@id/tv5"
+                    android:layout_marginRight="10dp"
+                    android:layout_toRightOf="@id/tv1"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+        </RelativeLayout>
+    </ScrollView>
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        app:itemBackground="@color/white"
+        app:itemIconTint="@color/teal_700"
+        app:itemTextColor="@color/teal_700"
+        app:menu="@menu/menu_navigation" />
+</RelativeLayout>

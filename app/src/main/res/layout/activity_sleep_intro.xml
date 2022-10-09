@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sea_bg"
+    tools:context=".SleepIntro">
+
+    <ImageView
+        android:id="@+id/SleepImage"
+        android:layout_width="match_parent"
+        android:layout_height="577dp"
+        android:scaleType="fitXY"
+        android:background="@drawable/intro"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/logoImage"
+        android:layout_width="331dp"
+        android:layout_height="316dp"
+        android:src="@drawable/sleep11"
+        app:layout_constraintBottom_toBottomOf="@+id/SleepImage"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/SleepImage"
+        app:layout_constraintTop_toTopOf="@+id/SleepImage"
+        app:layout_constraintVertical_bias="0.58000004" />
+
+    <TextView
+        android:id="@+id/sleepText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="For a better Sleep !"
+        android:textColor="@color/shadow_color"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/SleepImage"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/logoImage" />
+
+    <TextView
+        android:id="@+id/sleepText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/droidserif_italic"
+        android:layout_marginTop="10dp"
+        android:text="SLEEP STORIES"
+        android:textSize="35dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:textColor="@color/shadow_color"
+        android:textStyle="bold" />
+
+
+    <Button
+        android:id="@+id/startbutton"
+        android:layout_width="180dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="44dp"
+        android:background="@drawable/home_main_btn"
+        android:text="Get Started"
+        android:textAllCaps="false"
+        android:textColor="#FFF"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/SleepImage" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

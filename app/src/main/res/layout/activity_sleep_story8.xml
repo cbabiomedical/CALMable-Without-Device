@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sea_bg"
+    tools:context=".SleepStory8">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/linear11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <pl.droidsonroids.gif.GifImageView
+            android:id="@+id/forestImg"
+            android:layout_width="wrap_content"
+            android:layout_height="240dp"
+            android:layout_marginTop="0dp"
+            android:src="@drawable/sleepcloud"/>
+
+        <TextView
+            android:id="@+id/theme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableEnd="@drawable/darktheme"
+            android:gravity="right |center"
+            android:onClick="btnTheme"
+            android:paddingTop="11dp"
+            android:textColor="@color/dark_blue_300"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="\n\n\nWhat is ICE CREAM?"
+            android:textColor="@color/white"
+            android:textSize="45sp"
+            android:fontFamily="@font/bilbo"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:text="\n\n\n\n\n\n\n\n\n\n\n\nby Oyerinde Samson
+       "
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            android:fontFamily="@font/roboto_medium"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    <ScrollView
+        android:id="@+id/scroll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/linear11">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/linear11"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/white_background"
+            app:layout_constraintTop_toBottomOf="@+id/linear11">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_marginTop="15dp"
+                android:text="  There once was a little boy who had trouble understanding the meaning of words. His dad explained that he needed to know what the word meant to understand it, but all this did was make him more confused.
+
+\n\nThe next day, they were sitting at dinner when his mom said, “I’m going to get up and clear my plate.”
+
+\n\n“Clear your plate? What does that mean?” he asked his dad. He told me about how she would take her dish over and put it in the sink so no one else could use it. “I think I might be starting to get the hang of this language,” thought the little boy as soon as he understood what ‘clear your plate’ meant. That night, the boy was going to bed when his dad said, “I’m going to get up and tuck you in.”
+
+\n\n“Tuck me in? What does that mean?” he asked, confused. He told him how he would cover him with a blanket and kiss him goodnight, so the dark wouldn’t bother him. This time it took longer for the little boy to understand what that meant. But after hearing his mother talking about washing, he started putting two and two together. “Now, if you’ll excuse me, I have some socks that need cleaning.”
+
+\n\n“I have a surprise for you,” said Dad one morning. “We’re going to go to the beach tomorrow.”
+
+\n\nThe little boy was thrilled and asked, “What’s that?”
+
+\n\n“That is where we throw things into the ocean.”
+
+\n\nA few days later, they went back to the beach. The little boy picked up some rocks and threw them in - one by one, he could make ripples! He asked, “What are those?”
+
+\n\nDad smiled at him as if it should be obvious and said, “Those are waves.”
+
+\n\nLater on that week, during dinner time, Dad said: “You know how you love to eat ice cream? Well, I have something even better for you! Tomorrow I am going to take you to get ice cream!”
+
+\n\nThe little boy was so excited; he couldn’t wait. He asked excitedly, “What is ice cream?”
+
+\n\n“That...,” said Dad, pausing to think about how to explain the flavour of ice cream to a child. “Well, that’s what happens when you mix chocolate and milk.”
+
+\n\nThe boy’s mind raced, trying to make sense of the new words. “Mix chocolate and milk?” he repeated slowly.
+
+\n\n“That’s right!” beamed Dad excitedly, glad that his son was finally getting the idea.
+
+\n\n“Then what happens? What does it look like?” asked the boy.
+
+\n\nDad was confused by that question, but answered it anyway: “It looks like something you want to eat!”
+
+\n\nThe boy’s eyes lit up, and he said excitedly, “I know! It looks like glurp.”
+
+\n\n“What?” asked his dad, now thoroughly confused.
+
+\n\n“Like when I mix orange juice with strawberry milk!” explained the little boy. His father sighed in relief and said: “That’s right! Ice cream is what happens when you mix chocolate and milk.”
+
+\n\n“Oh yeah, I remember now,” said the boy. “That’s what we call glurp.”
+
+\n\nEvery morning, the boy woke up excited about what new combination of words he would hear that day. One Saturday, he was outside playing when suddenly his dad walked out and said, “How would you like some ice cream?” The little boy looked at him suspiciously and asked: “What is ice cream?”
+
+\n\nHis father chuckled to himself and said, “Ice cream is a delicious frozen dessert made from milk and sugar!”
+
+\n\nThe boy shrugged his shoulders and said, “Okay...”
+
+\n\nA few minutes later, Dad brought out a plate with a slice of cake on it. The boy watched in amazement as the man took out a can, shook it till something came out, and then sprayed the cake with a fine mist. “What is that?” asked the boy as he watched Dad sprinkle the white covering all over the cake, covering every inch of it.
+
+\n\n“It’s called ‘ice cream,’” replied his dad, smiling at him proudly. The boy scooped up some of the stuff on his plate and said:
+
+\n\n“I know! It looks like glurp.”
+
+\n\n“What?” His father leaned forward, interested in what the little boy had to say about this frozen dessert he’d made for him.
+
+\n\nThe little boy looked up at his dad, smiled, and said: “Thanks for letting me try some glurp!”
+
+\n\n“It’s called ‘ice cream,’” repeated his father patiently.
+
+\n\nHe looked up at his dad and said, “I know! It looks like glurp.”
+
+\n\nThe little boy grew older and learned that the world was a wondrous place. He delved deeper into learning how things were named, where they came from, what they tasted like. But there were still some things he didn’t understand. His mother was ill for quite some time, and nobody told him why she had to go to the hospital or what happened there when she died of cancer. But as he got older, he learned about it all on his own: pain, suffering, death. But even then, he struggled with understanding this strange concept known as “death.”
+
+\n\nWhen the boy was in the third grade, his language arts teacher asked him to write a composition on what he wanted to be when he grew up. The little boy scratched away with his pencil and, when he had finished, showed it to his father. It said:
+
+\n\n“I want to be an explorer like my dad! I want to find out things that nobody else knows about. I hope one day I can discover new words for other people to learn to understand them too! I love glurp.”
+
+\n\nHis father smiled at his work - “That’s wonderful!” he exclaimed. The boy grinned back as if pleased by the compliment. His mother walked up beside him and read what her son had written. She looked up at her husband and tilted her head in confusion. “What is this?” she asked, pointing to the paper.
+
+\n\nThe boy quickly provided his answer: “That’s what it looks like when you mix chocolate and milk! We call it glurp!” “No dear,” his father corrected him gently, “it’s called ‘ice cream,’ not glurp.” The boy looked at his mother, then back down at the paper, with a look of confusion on his face. He could see that it said glurp! “It must be glurp! Glurp tastes good...why would anyone want to call something else by that name?”
+
+\n\nHis parents exchanged glances and realized their mistake. They had gone and told their son about this wonderful frozen dessert they loved so dearly, and called it by the wrong name. The boy was too young to understand what ice cream was. And, in time, he would learn the horrible truth: that glurp is a sickly brown liquid created from mixing chocolate syrup and milk.
+
+\n\nHe would grow into adulthood as a man who could not understand how his parents loved something so vile (as glurp used to be). But more importantly, he’d never see glurp as anything but... well, glurp.
+
+\n\nOn second thought, maybe I’ll stick with calling it “ice cream.”\n"
+                android:textAlignment="textStart"
+                android:textColor="@color/dark_blue_300"
+                android:textSize="16dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.496"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/arrowCircle" />
+
+        </LinearLayout>
+
+        <!--        </ScrollView>-->
+    </ScrollView>
+</RelativeLayout>

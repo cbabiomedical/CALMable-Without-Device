@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sea_bg"
+    tools:context=".SleepStory2">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/linear11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <pl.droidsonroids.gif.GifImageView
+            android:id="@+id/forestImg"
+            android:layout_width="wrap_content"
+            android:layout_height="240dp"
+            android:layout_marginTop="0dp"
+            android:src="@drawable/sleepcloud"/>
+
+        <TextView
+            android:id="@+id/theme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableEnd="@drawable/theme"
+            android:gravity="right |center"
+            android:onClick="btnTheme"
+            android:paddingTop="11dp"
+            android:textColor="@color/dark_blue_300"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="\n\n\nMomo's Adventure"
+            android:textColor="@color/white"
+            android:textSize="45sp"
+            android:fontFamily="@font/bilbo"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:text="\n\n\n\n\n\n\n\n\n\n\n\nby Alyson Ackman       "
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            android:fontFamily="@font/roboto_medium"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    <ScrollView
+        android:id="@+id/scroll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/linear11">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/linear11"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/black_blackground"
+            app:layout_constraintTop_toBottomOf="@+id/linear11">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_marginTop="15dp"
+                android:text="  Casey’s eyes were glued on the ferocious animal in front of her, heart beating wildly as she lay frozen in the tall, dry grass. From between the blades she watched the beautiful leopard placidly groom itself in the sun rays. Casey wished she was close enough to feel the deep throated purring, but didn’t dare move. “Look, Momo,” she whispered to her friend laying next to her.  After a pause she huffed, “Of course it’s not a cheetah, silly. They have solid spots. Look at its coat. Hollow spots, not solid.” The stuffed lemur made no reply.
+
+\n\nCasey cupped her hands around her eyes like binoculars and contemplated her next move. Before she could come up with a plan, the cat suddenly pounced towards a scurrying critter Casey couldn’t see. Both predator and prey darted and dashed around the field before both scurried up the nearby tree and out of Casey’s view. Casey imagined what it would be like to be that prey, how scared and alone it must be. “You know Momo, it’s kind of sad that the prey gets caught alone.” She gave a sigh as she stood up with the lemur dangling in her hand. “Maybe if it had more friends… then life wouldn’t be so scary. Then someone could be like a lookout or back up!” She looked down to the lemur and nodded. “I know... you’re my backup. Just like I’m yours!”
+
+\n\nCasey stood in the hot sun, sweat starting to bead on her forehead. “Okay, the boss wants us to deliver our package before noon which is when the sun reaches the highest point in the sky.” She tilted her head to the sky to read the sun’s position, then stealthily snuck a peak at her Hello Kitty watch. “C’mon Momo, we don’t have much time!” She took off down the path, her precious cargo bouncing in the bag on her back, Momo swinging wildly in her grip.
+
+\n\nCasey and lemur stopped at the edge of a big field on the edge of the park. “Look at this grassland. We must be in the savanna!” She looked out over the field seeing a plethora of animals. “Wow Momo, look at the elephants and zebras. Maybe we’ll see a gazelle.” She put Momo down and grabbed her water bottle from the side of her bag. She tilted the bottle over Momo’s mouth. She then removed the cap and took a sip, the cool water sliding down her parched throat. “No you can’t have more, we have to save it. It’s still a long journey.” She stared at the yellow button eyes. “I know this isn’t easy. But someone’s gotta do it.” She screwed the cap back on and slid the bottle back into its sleeve. “What do you mean I dragged you into this?”
+
+\n\nCasey chatted with the lemur as she walked along the field but stopped talking when she heard noise coming from around the fence ahead. She swallowed hard and slowly peered around the corner, careful to be quiet. She saw four boys playing with a small animal. “Look Momo,” she whispered. “Poachers!” She watched them toss a stick around the small gray animal. “They are hunting that poor baby rhino!” She watched the small french bulldog jump around between the boys chasing after the stick. Then Casey looked at the face of one of the boys. “Oh no! It’s our arch nemesis. David the Destroyer.” She glared at the boy then stuck her tongue out. She threw Momo out then pulled him back in. “No, Momo! We can’t just go after him. We are outnumbered.” She reached around and felt her bag. “Besides, this isn’t the mission.”
+
+\n\nCasey began walking away when a boy yelled out, “Hey Casey!” She gasped and started to run away. “He’ll ruin our mission!” Casey ran along the fence until she found four scooters laying around. She grabbed the one she recognized and blasted off down the path leaving her nemesis calling after her.
+
+\n\nCasey came to a stop when her heart couldn’t take any more and her lungs were burning from her dramatic escape; but she forgot all of it when she saw the challenge before her. “Look Momo. A maze of physical tests to keep anyone out of the temple. We will have to be tough.” She dropped the scooter at the edge of the park and raced towards her first challenge - the monkey bars. “Hold onto me Momo!” She strapped the lemur’s arms around her as she jumped up and gripped the hot metal. The hardest part was taking a hand off to reach for the next bar. She tried not to look down as she timed her swinging. Not yet, she thought, straining against her grip. Now!  She boldly reached out, grabbed the next one and secured a solid grip, swung back a bit then launched her other hand onto the same bar. Casey slowly, painfully, made her way across the bars, hands burning from refusing to let her fall.
+
+\n\nWhen she reached the end, she dropped back down and looked back. “Phew! That could have been a deadly fall! You should keep holding onto me, I’ll get us through the rest.” Casey climbed up colourful towers and slid down chutes, she jumped over and ducked under obstacles until she faced a harrowing threat. “Ok, Momo. If I can avoid these four swinging boulders, it’s a clear shot to the temple.”
+
+\n\nCasey stared across the path along the swingset, transforming the four kids into hardened rocks. Her eyes followed the swing in front of her, she darted through its path safely, narrowingly missing the next one as it swung in front of her. The laughter and chatter around her dissolved into jungle noises of bird and insect calls. She swung around and danced in time to the swaying, nimbly jumping across the grooves. Suddenly a heavy weight hit her on her back, throwing her and Momo to the ground. The kid scrambled off the swing and raced to Casey who was sprawled on the ground. “Are you okay? I didn’t see you!” The young boy reached a hand down to Casey who was dazed from the blow as much as the hit of reality. Casey kept her gaze down as she slowly sat up. She nodded shyly to the kid, then suddenly swooped up Momo and ran to the end of the park before the kid could react.
+
+\n\nCasey held Momo close to her chest as she fought back tears. “That was a close one Momo. We … we were almost captured…” her mind scrambled for an escape, “... by that bandit.” She looked back to the swing set and saw swaying boulders once more. The bandit stood there watching her. “C’mon, we better hurry.” Casey turned and raced across the bare land leading up the entrance of the temple.
+
+\n\nWhen she got closer, two people emerged from the entrance so she darted into the bushes along the wall to avoid being seen. “That was close. There are guards everywhere! We need to watch our backs.” She snuck along the wall of the building and the bushes covering the front garden. When she saw the entrance was clear she came out and faced two large wooden doors. “Ok Momo, here we go.” She reached out and half-heartedly pulled on the heavy door. “Oh no! There must be a secret code or something!” She held the lemur up as she looked around. “Good eyes Momo!” She took a few steps across the path and saw a post sitting on the edge of a bush. “Wow, look at this insignia! A person sitting on half a circle… hmmm.” She rubbed at her chin. “It must be a symbol of the temple’s god!” She reached out and pushed the button. The doors clicked and slowly swung open. “Yay! We did it!”
+
+\n\nCasey raced inside the temple, heart thundering. The smell of old books and dust was a comfort to her. It felt like a welcoming hug from all her imagined friends and adventures. Casey stalked through the front entrance, cautious to avoid the view of anyone who was murmuring ahead. “In order to complete our mission, we have to face the keeper of the temple.” Casey squatted down beside a bench and took off her backpack. She carefully removed her precious cargo, zipped up the empty bag and swung it back over her shoulder. “Stay close to me.” Casey took a deep breath, stood up and walked to the front desk.
+
+\n\nIt was as if a cloud had cleared from Casey’s mind. Suddenly she was aware of being in the library. The temple was gone, replaced by rows of wooden bookshelves piled high. People were mulling around or sitting at desks. She became aware of the noise around her, growing louder until it felt overwhelming. Ahead of her was the front desk with the clerk watching her patiently. She could feel her heart pound against her ribs as true fear pinned her to the ground with the man’s clear blue gaze solely on her. Her grip tightened on her stuffed animal and she tried to swallow with her dry mouth.
+
+\n\n“Hello there,” said the middle aged man at the desk. “Can I help you with something?” Casey stood frozen to the ground, a whooshing sound filling her ears. The clerk smiled and looked down at her hands. “Are you here to return those books?” He asked nicely. Casey nodded stiffly, feeling every vertebrae move at the forced movement. The clerk kept smiling and reached over the desk to her. Casey stepped towards him very slowly and held out her books. The clerk took them gently and read the titles. “Oh, a very nice read. Tomb Raider is an amazing story, especially for a young girl like you. And let’s see… Animals of the Serengeti. Another amazing find.” He fished around under his desk and pulled out two slips of paper while Casey stood there frozen. Her heart began to hurt at the strain. She gripped Momo tighter to her chest. He stamped both slips before he opened the books and returned the paper sheet to the proper book. “There we go. You are all set little lady. Would you like to pick out some more books?” Casey’s eyes widened as he looked back at her. Her breath quickened as she shook her head quickly then darted down the hallway, through the heavy door and back out into the parking lot.
+
+\n\n“That was a close one Momo. Too bad we couldn’t get more books” She hugged her toy to her chest and started walking home. “Yeah, you’re right, maybe next time.” She passed the playground with the swings and the jungle gym. She walked by the big field where some kids were playing ball. Finally past her neighbour’s yard where the tabby cat was still grooming itself by the tree. She walked passed the scooter she stole and up the steps but stopped when she heard her parents through the screen door. “ - wasn’t ready for this,” her mom said sternly. “She is too young, too fragile.” Her dad’s deep voice was calm as he responded. “She’ll be fine. She’s probably not back yet ‘cuz she’s… hanging out in her own world. You know her.”
+
+\n\n“Yes, I do know her and her worlds. I told you we can’t keep letting her read like she does if it only makes things worse. She needs friends and kids in her life!”
+
+\n\nCasey kept her hand on the door handle, listening. Her heart dropped to her stomach. They can’t take her books away, they are all she has.
+
+\n\n“You worry too much. She’s just a kid.”
+
+\n\n“A kid who doesn’t talk! Except to that stuffed thing she lugs around everywhere. You shouldn’t have let her go off by herself.”
+
+\n\n“So you want her to be grown up enough to socialize but not walk three blocks to the library?” Casey could hear her dad’s frustration growing.
+
+\n\n“I want her to be normal. To be happy.”
+
+\n\nCasey peeked into the house through the screen and saw her dad hug her mom. His voice was a little muffled as he responded, “What makes you think she isn’t?”
+
+\n\nBefore her mom could reply, Casey pulled open the screen door and rushed inside. Both adults turned to her as she entered the room. She gave her parents a huge smile and ran up to them. “Heya there champ!” Her dad said as he leaned down for the hug she rushed at him. “Did you have fun on your secret mission?” Casey kept her arms around him, looked up and nodded enthusiastically.
+
+\n\nJust then, barking came from the other room as a small, gray french bulldog came bounding up to Casey followed by her arch nemesis. “Hey twerp!” Casey stuck out her chest and faced David head on, but he only smiled and scuffed up her hair. ”Next time you wanna steal my scooter, maybe don’t leave it less than a block away from the scene of the crime.” David said jokingly as he went into the kitchen.
+
+\n\nCasey faced her parents again then rubbed the jumping dog, pretending it was a baby rhino. “So, did you accomplish your secret mission?” Her dad asked, sitting down next to her and petting the dog with her. Casey looked at her dad’s smiling face, then her mom’s look of concern as a thought occurred to her.
+
+\n\nReality was really scary sometimes, but just like in her adventures, as long as you have someone there as back up- someone who believes in you - maybe everything will work out.
+
+\n\nA small smile came to her lips and she said, “Yes, we did.”\n"
+                android:textAlignment="textStart"
+                android:textColor="@color/white"
+                android:textSize="16dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.496"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/arrowCircle" />
+
+        </LinearLayout>
+
+        <!--        </ScrollView>-->
+    </ScrollView>
+</RelativeLayout>

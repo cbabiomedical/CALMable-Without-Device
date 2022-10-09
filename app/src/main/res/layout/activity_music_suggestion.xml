@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MusicSuggestionActivity"
+    android:background="@drawable/bg_1">
+
+    <TextView
+        android:id="@+id/tvTitile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Recommended for you"
+        android:layout_margin="32dp"
+        android:gravity="center"
+        android:textSize="28dp"
+        android:textColor="@color/dark_blue_100"/>
+
+    <LinearLayout
+        android:id="@+id/ll1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_below="@+id/tvTitile">
+
+        <Button
+            android:id="@+id/btnSugMusic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="32dp"
+            android:backgroundTint="@color/teal_700"
+            android:text="Music"
+            android:textColor="@color/white"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/teal_100"
+            android:text="Breathing"
+            android:textColor="@color/white"
+            android:id="@+id/btnSugBreathing"
+            android:onClick="btnGoSugBreathing"/>
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="16dp"
+        android:layout_below="@id/ll1">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/listOfSongRecycleView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </ScrollView>
+
+</RelativeLayout>

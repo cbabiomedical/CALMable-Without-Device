@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sea_bg"
+    tools:context=".SleepStory11">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/linear11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <ImageView
+            android:id="@+id/forestImg"
+            android:layout_width="wrap_content"
+            android:layout_height="235dp"
+            android:layout_marginTop="0dp"
+            android:src="@drawable/bookb"/>
+
+        <TextView
+            android:id="@+id/theme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableEnd="@drawable/darktheme"
+            android:gravity="right |center"
+            android:onClick="btnTheme"
+            android:paddingTop="11dp"
+            android:textColor="@color/dark_blue_300"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="\n\n\nDangerous Books"
+            android:textColor="@color/white"
+            android:textSize="45sp"
+            android:fontFamily="@font/bilbo"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:text="\n\n\n\n\n\n\n\n\n\n\n\nby Keerththan
+  "
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            android:fontFamily="@font/roboto_medium"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    <ScrollView
+        android:id="@+id/scroll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/linear11">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/linear11"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/white_background"
+            app:layout_constraintTop_toBottomOf="@+id/linear11">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_marginTop="15dp"
+                android:text="  I thought Jason was mad. But I was wrong. I was mad! Mad to get imprisoned in this library. It started like this...
+
+\n\nTRING! TRING! TRING!
+
+\n\nMy phone was ringing! With sleepy eyes, I turned back and took a look at the clock. Damn! It was 11 PM! I attended the call.
+
+\n\nThe voice shouted, “Hey, it's me, Jason.”
+
+            \n\n“Why did you call now?” I asked him sleepily.
+
+            \n\nHe answered, “I have to submit the library book, Drake. Its due date is today.”
+
+            \n\n“Are you mad? At 11 PM?”
+
+            \n\n“Please, Drake.” And that sentence did something to me.
+
+            \n\n“Ok, I'll come to your house now.”
+
+            \n\n“I'm standing in front of your house, Drake.”
+
+            \n\nI hung up the call, put on my mask and slowly tiptoed on the stairs, hoping my parents won't wake up. I looked at their locked room and sprinted to Jason. He looked sober and his blue eyes glittered in the night.
+
+            \n\n“You look sleepy,” he said.
+
+            \n\n“Ah, at 11 PM everyone looks sleepy.” I gave him an annoyed look and he turned his face to the other side.
+
+            \n\n“Ok. Chill.” He puts his strong forearms on my shoulder.
+
+            \n\nThen only it hits!
+
+            \n\n“Jason, do you know what day is today?” He thought for a while.
+
+            \n\n“Aw, man! Magic day.”
+
+            \n\n“Anything can happen to us. The roads, trees can behave weirdly and people have no guarantee of their life today.”
+
+            \n\nWe sat down and made a decision.
+
+            \n\n“We are going, whatever it takes,” he said and stood up.
+
+            \n\nI regretted being his friend!
+
+            \n\n*****
+
+            \n\nWe started our dangerous journey, holding our hands together.
+
+            \n\n“Is submitting this book really necessary?” I asked him, expecting a no as a reply.
+
+            \n\n“Yes. I have to submit it today,” he said, breaking all my hopes.
+
+            \n\nJason stopped me on my path. A whirlpool on the road! There were many whirlpools, all over the road.
+
+            \n\n“Do you still think we should continue?” I asked him.
+
+            \n\n“We are submitting the book, for sure.” He stressed on the book a lot.
+
+            \n\nWe took our steps carefully and who would want to lose their lives for submitting a library book?
+
+            \n\nHis backpack slided and fell into a whirlpool!
+
+            \n\nJason would have jumped too but I caught hold of him.
+
+            \n\n“NO,” he shouted at the top of his voice.
+
+            \n\n“Idiot, it's just a backpack. Don't risk your life for it,” I said, keeping him in my grip.
+
+            \n\n“The book is in that backpack.”
+
+            \n\n“Calm down, Jason.” I patted his back. He was  short tempered.
+
+            \n\nThe bag flew out from another whirlpool. I opened my mouth in awe. Whirlpools always suck in but this whirlpool threw it out. Jason ran to the bag. Man, he was relieved!
+
+            \n\nAs much short tempered, he loved having fun. He jumped into one whirlpool and came out of another. He signalled his hands to me.
+
+            \n\n“No thanks.”
+
+            \n\nWe continued our journey. The night was filled with wonders!
+
+            \n\nThis time, I stopped him on his path. The ground was cracked! There was no road in the middle! We carefully walked in the sides.
+
+            \n\nWe panted and took long breaths. Then we heard a siren!
+
+            \n\n“Police are standing there, Jason,” I alerted him.
+
+            \n\n“We should go to the library, we are almost there.”
+
+            \n\nThe library was in our sight. But the police stood between us and the library.
+
+            \n\n“It's lock down today. We shouldn't come out at this hour of night,” I stated the facts to him.
+
+            \n\n“Look there!” He shouted and I ducked.
+
+            \n\nStones were flying around the place. We ran and hid behind a tree. We had to plan an escape!
+
+            \n\nJason gave a wild grin to me. He signalled me to look down. The roots of the tree were loose in the ground.
+
+            \n\n“No, Jason. Don't do this.“
+
+            \n\nHe won't take my words into account if he decides what he wanted to do.
+
+            \n\nHe lifts the tree with his strong hands. I gave him a hand but it wasn't necessary for him.
+
+            \n\nWe took that tree as defence and slowly approached the library. We walked for a distance and the stones stopped coming our way. We planted the tree again and stood helpless behind the police jeep.
+
+            \n\nJason was clever and loved adventures. But he hated being late in anything and never gave up. I'm his only companion and he takes me everywhere, whether it's a problem or fun.
+
+            \n\nAgain, Jason gave me a wild grin. This time I was happy that he had an idea. He saw a whirlpool under the jeep.
+
+            \n\n“Drake, this is our only chance to escape the police and go into the library. Follow me,” he said and slowly crawled near the whirlpool.
+
+            \n\nI crawled after him. He fell into the whirlpool and I prayed to all gods to return home, safe and sound. I fell into the whirlpool and it was just for a second. I flew out of the other whirlpool near Jason.
+
+            \n\n“We did it,” I said.
+
+            \n\n“Yup, let's go in,” he said and opened the large grilled gate of the library. We tiptoed into the flower bedded garden.
+
+            \n\nWe heard the sound of footsteps and hid behind a tree. We slowly peeped onto the other side. There were two people, a man and a woman in my sight.
+
+            \n\nHe was thin and had brown hair. The woman was fat and had black hair.
+
+            \n\nSomething hit me! The door of my parent's room was locked outside!
+
+            \n\nI slowly went near them and touched the woman. She opened her mouth to shout. But the man shut her mouth with his hands.
+
+            \n\n“Mom! Dad! What are you doing here?” I whispered.
+
+            \n\n“We came to submit the book,” my Dad whispered back.
+
+            \n\n“What's the hurry?” I asked them.
+
+            \n\n“Ask Jason,” my Mom said as she saw Jason standing behind me.
+
+            \n\n“I will tell you on the way, Drake,” Jason said.
+
+            \n\nThe four of us marched to the stairs of the library. To my astonishment, there were hundreds of them waiting to submit the book.
+
+            \n\n“What is the hurry?” I ask Jason again.
+
+            \n\n“I will tell you.”
+
+            \n\nMy suspicion increased. I ran to a man standing in the row and asked him, “What's the hurry to submit the book today?”
+
+            \n\n“Look at the board at the starting of the stairs.” He pointed to a yellow coloured board.
+
+            \n\nI rushed down and took a look at the board.
+
+            \n\nIt read, “The books are behaving badly on Magic day. Please submit before 12AM.”
+
+            \n\nI thought, “What? The people have no sense. How can books behave badly?” and laughed. “You are fooled, Jason.”
+
+            \n\n“Nope. The librarian never lies,” he told.
+
+            \n\nI looked at my watch. It was 12 AM.
+
+            \n\n“Let's see what happens,” I mocked at him.
+
+            \n\nThe book in his hand suddenly flew in the air.
+
+            \n\n“Why did you throw the book up, Jason?” I asked.
+
+            \n\n“I didn't do that, Drake,” he said slowly.
+
+            \n\nThat's when I truly believed the librarian. All the books jumped and hovered in the air.
+
+            \n\n“SURRENDER,” they shouted in unison.
+
+            \n\nAll the people were scared and ran haywire. The books chased everybody and covered them with paper. One by one, they made the people surrender. Jason and I stood frozen.
+
+            \n\n“Now do you understand why I wanted to submit it?” he asked.
+
+            \n\n“Yes,” I replied, giving him a helpless look.
+
+            \n\nWe stood there and surrendered ourselves.
+
+            \n\n*****
+
+            \n\nI wouldn't have been imprisoned by these bunch of books if I had just been quiet and followed the people.
+
+            \n\nThanks for your amazing work, Mind of Drake!\n"
+                android:textAlignment="textStart"
+                android:textColor="@color/dark_blue_300"
+                android:textSize="16dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.496"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/arrowCircle" />
+
+        </LinearLayout>
+
+        <!--        </ScrollView>-->
+    </ScrollView>
+</RelativeLayout>

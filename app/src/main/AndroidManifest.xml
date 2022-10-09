@@ -1,0 +1,592 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.calmable">
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the "MyLocation" functionality.
+    -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+
+    <application
+        android:name=".SampleApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_app_logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.CALMable.NoActionBar"
+        tools:replace="android:icon,android:theme">
+        <activity
+            android:name=".RoadMapVideoActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Sleep11DarkTheme"
+            android:exported="true"
+            android:parentActivityName=".SleepStoryReadActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SleepStory11"
+            android:exported="true"
+            android:parentActivityName=".SleepStoryReadActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Sleep10DarkTheme"
+            android:exported="true"
+            android:parentActivityName=".SleepStoryReadActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SleepStory10"
+            android:exported="true"
+            android:parentActivityName=".SleepStoryReadActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Sleep9DarkTheme"
+            android:exported="true"
+            android:parentActivityName=".SleepStoryReadActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SleepStory9"
+            android:exported="true"
+            android:parentActivityName=".SleepStoryReadActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Sleep8DarkTheme"
+            android:exported="true"
+            android:parentActivityName=".SleepStoryReadActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SleepStory8"
+            android:exported="true"
+            android:parentActivityName=".SleepStoryReadActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Sleep7DarkTheme"
+            android:exported="true"
+            android:parentActivityName=".SleepStoryReadActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SleepStory7"
+            android:exported="true"
+            android:parentActivityName=".SleepStoryReadActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Sleep6DarkTheme"
+            android:exported="true"
+            android:parentActivityName=".SleepStoryReadActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Sleep5DarkTheme"
+            android:exported="true"
+            android:parentActivityName=".SleepStoryReadActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Sleep4DarkTheme"
+            android:exported="true"
+            android:parentActivityName=".SleepStoryReadActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Sleep3DarkTheme"
+            android:exported="true"
+            android:parentActivityName=".SleepStoryReadActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Sleep2DarkTheme"
+            android:exported="true"
+            android:parentActivityName=".SleepStoryReadActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Sleep1DarkTheme"
+            android:exported="true"
+            android:parentActivityName=".SleepStoryReadActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SleepStory6"
+            android:exported="true"
+            android:parentActivityName=".SleepStoryReadActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SleepStory5"
+            android:exported="true"
+            android:parentActivityName=".SleepStoryReadActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SleepStory4"
+            android:exported="true"
+            android:parentActivityName=".SleepStoryReadActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SleepStory3"
+            android:exported="true"
+            android:parentActivityName=".SleepStoryReadActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SleepStory2"
+            android:exported="true"
+            android:parentActivityName=".SleepStoryReadActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SleepStory1"
+            android:exported="true"
+            android:parentActivityName=".SleepStoryReadActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".fitbit.FitbitHomeActivity"
+            android:exported="true"
+            android:parentActivityName=".SleepStoryReadActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SleepIntro"
+            android:exported="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".fitbit.FitbitMainActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="net.openid.appauth.RedirectUriReceiverActivity"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            tools:node="replace">
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="monitor" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".VideoPlayerActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
+        <activity
+            android:name=".MyAdapter"
+            android:exported="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AddNoteActivity"
+            android:exported="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MostStressedPeople"
+            android:exported="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MusicSuggestionActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ComingSoonActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".BreathPattern6Info"
+            android:exported="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".BreathPattern5Info"
+            android:exported="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".BreathPattern4Info"
+            android:exported="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".BreathPattern3Info"
+            android:exported="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".BreathPattern2Info"
+            android:exported="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".BreathPattern1Info"
+            android:exported="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SelfImprovementActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".CreativityActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SuccesStoryActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".BreathPattern6"
+            android:exported="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".BreathPattern5"
+            android:exported="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".BreathPattern4"
+            android:exported="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".BreathPattern3"
+            android:exported="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".BreathPattern2"
+            android:exported="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".BreathPattern1"
+            android:exported="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".BreathPatterns"
+            android:exported="true"
+            android:label="Breath Corner"
+            android:screenOrientation="portrait" />
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".ResultActivity"
+            android:exported="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".QuizActivity"
+            android:exported="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SleepyHome"
+            android:exported="true"
+            android:label="Sleepy"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MapsActivity"
+            android:exported="true"
+            android:label="@string/title_activity_maps"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".LeaderboardsFragment"
+            android:exported="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".InstrumentalMusicActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".LoveMusicActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".HealingMusicActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SoundScapeMusicActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:label="Sound Scape" />
+        <activity
+            android:name=".SleepStoryReadActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:label="Sleepy Stories" />
+        <activity
+            android:name=".SleepStoryAudioActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:label="Sleepy Stories" />
+        <activity
+            android:name=".ChillOutMusicActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:label="Chill Music" />
+        <activity
+            android:name=".device.DeviceActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:label="Device" />
+        <activity
+            android:name=".PainReliefMusicActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:label="Calming 528Hz" />
+        <activity
+            android:name=".MeditateMusicActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:label="Meditate" />
+        <activity
+            android:name=".NatureSoundsActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:label="Nature Sounds" />
+        <activity
+            android:name=".concentration_music"
+            android:exported="false" />
+        <activity
+            android:name=".MusicPlayer"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".DeepRelaxMusicActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ProfileMain"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".BreathLevel6"
+            android:exported="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".BreathLevel5"
+            android:exported="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".BreathLevel4"
+            android:exported="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".BreathLevel3"
+            android:exported="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".BreathLevel2"
+            android:exported="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ReportYearly"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:label="Yearly" />
+        <activity
+            android:name=".ReportMonthly"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:label="Monthly" />
+        <activity
+            android:name=".scan.ScanActivity"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:label="Scan" />
+        <activity
+            android:name=".BreathLevel1"
+            android:exported="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ReportWeekly"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:label="Weekly" />
+        <activity
+            android:name=".ReportHome"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:label="Report-Daily" />
+        <activity
+            android:name=".Challenge"
+            android:screenOrientation="portrait"
+            android:exported="false"
+            android:label="Challenge"/>
+        <activity
+            android:name=".Relax"
+            android:screenOrientation="portrait"
+            android:exported="false"
+            android:largeHeap="true"/>
+        <activity
+            android:name=".Journal"
+            android:screenOrientation="portrait"
+            android:exported="false"
+            android:label="Journal"/>
+        <activity
+            android:name=".Home"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".AboutAppActivity"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:label="About"
+            android:parentActivityName=".ProfileMain" />
+        <activity
+            android:name=".RateUsActivity"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:label="Rate Us"
+            android:parentActivityName=".ProfileMain" />
+        <activity
+            android:name=".PremiumActivity"
+            android:screenOrientation="portrait"
+            android:exported="true"
+            android:label="Premium"
+            android:parentActivityName=".ProfileMain" />
+        <activity
+            android:name=".CalenderActivity"
+            android:screenOrientation="portrait"
+            android:exported="true"
+            android:label="Calender"
+            android:parentActivityName=".ProfileMain" />
+        <activity
+            android:name=".LocationActivity"
+            android:screenOrientation="portrait"
+            android:exported="true"
+            android:label="Reminders"
+            android:parentActivityName=".ProfileMain" />
+        <activity
+            android:name=".MyFavouritesActivity"
+            android:screenOrientation="portrait"
+            android:exported="true"
+            android:label="Favourites"
+            android:parentActivityName=".ProfileMain" />
+        <activity
+            android:name=".MyDownloadsActivity"
+            android:exported="true"
+            android:label="Downloads"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".ProfileMain" />
+        <activity
+            android:name=".ChangePasswordActivity"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:label="Change Password"
+            android:parentActivityName=".EditProfileActivity" />
+        <activity
+            android:name=".UserPreferences"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:label="Preferences"
+            android:parentActivityName=".RegisterUser" />
+        <activity
+            android:name=".BreathHome"
+            android:screenOrientation="portrait"
+            android:exported="true"
+            android:label="Breath Game"
+            android:parentActivityName=".Challenge"/>
+        <activity
+            android:name=".HappyHome"
+            android:screenOrientation="portrait"
+            android:exported="true" />
+        <activity
+            android:name=".MotivateHome"
+            android:screenOrientation="portrait"
+            android:exported="true"
+            android:label="Motivate" />
+        <activity
+            android:name=".SplashActivity"
+            android:screenOrientation="portrait"
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+            android:label="CALMable">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".EditProfileActivity"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:label="Edit Profile"
+            android:parentActivityName=".ProfileMain" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".forgotpw_otp.EnterNewPwActivity"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:label="Password Reset" />
+        <activity
+            android:name=".forgotpw_otp.ForgetPwOtp"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:label="Enter OTP" />
+        <activity
+            android:screenOrientation="portrait"
+            android:name=".forgotpw_otp.ForgetPwWithMobile"
+            android:exported="true"
+            android:label="Forgot Password" />
+        <activity
+            android:name=".ForgotPassword"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:label="Forgot Password" />
+        <activity
+            android:name=".VerifyPhoneActivity"
+            android:screenOrientation="portrait"
+            android:exported="true"
+            android:label="Verify Account"
+            android:parentActivityName=".EnterPhoneActivity" />
+        <activity
+            android:name=".RegisterUser"
+            android:screenOrientation="portrait"
+            android:exported="true"
+            android:label="Register"
+            android:parentActivityName=".LoginUserActivity" />
+        <activity
+            android:name=".EnterPhoneActivity"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".RegisterUser" />
+        <activity
+            android:name=".LoginUserActivity"
+            android:screenOrientation="portrait"
+            android:exported="true"
+            android:label="Login" />
+        <activity
+            android:name=".NoteEditorActivity"
+            android:screenOrientation="portrait"
+            android:exported="true"
+            android:label="Note" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <activity android:name="com.crrepa.ble.trans.upgrade.NotificationActivity" />
+
+        <service android:name="com.crrepa.ble.trans.upgrade.DfuService" />
+        <service
+            android:name=".services.MyFirebaseInstanceService"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <meta-data
+            android:name="io.sentry.dsn"
+            android:value="https://examplePublicKey@o0.ingest.sentry.io/0" />
+    </application>
+
+</manifest>

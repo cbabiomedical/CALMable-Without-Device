@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <SearchView
+        android:id="@+id/ac_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tag_person"
+        android:queryHint="Who are you with?"
+        android:layout_marginTop="10dp"
+        android:iconifiedByDefault="false"/>
+
+    <TextView
+        android:id="@+id/tag_person"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="To give a maximum user experience, let us know:"
+        android:textAlignment="center"
+        android:textColor="#205072"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/edit_person"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_below="@+id/tag_person"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp"
+        android:visibility="invisible" />
+
+    <!--    <Button-->
+    <!--        android:id="@+id/give_place"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="60dp"-->
+    <!--        android:layout_below="@+id/edit_person"-->
+    <!--        android:text="Give Location"-->
+    <!--        android:textAlignment="center"-->
+    <!--        android:textColor="#205072"-->
+    <!--        android:textSize="20sp"-->
+    <!--        android:textStyle="bold" />-->
+
+    <EditText
+        android:id="@+id/edit_place"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edit_person"
+        android:hint="Place"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edit_person"
+        android:layout_marginTop="10dp"
+        android:text="New person? Click on search icon before submit"
+        android:textAlignment="center"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/edit_reason"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_below="@+id/tv"
+        android:layout_marginStart="43dp"
+        android:layout_marginTop="10dp"
+        android:hint="  Why were you stressed?"
+        android:textSize="18sp" />
+
+
+</RelativeLayout>

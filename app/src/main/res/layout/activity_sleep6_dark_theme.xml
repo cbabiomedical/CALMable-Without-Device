@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sea_bg"
+    tools:context=".SleepStory6">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/linear11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <ImageView
+            android:id="@+id/forestImg"
+            android:layout_width="wrap_content"
+            android:layout_height="240dp"
+            android:layout_marginTop="0dp"
+            android:src="@drawable/stonew"/>
+
+        <TextView
+            android:id="@+id/theme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableEnd="@drawable/theme"
+            android:gravity="right |center"
+            android:onClick="btnTheme"
+            android:paddingTop="11dp"
+            android:textColor="@color/dark_blue_300"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="\n\n\nStyx and Stones"
+            android:textColor="@color/white"
+            android:textSize="45sp"
+            android:fontFamily="@font/bilbo"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:text="\n\n\n\n\n\n\n\n\n\n\n\nby Deidra Lovegren
+       "
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            android:fontFamily="@font/roboto_medium"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    <ScrollView
+        android:id="@+id/scroll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/linear11">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/linear11"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/black_blackground"
+            app:layout_constraintTop_toBottomOf="@+id/linear11">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_marginTop="15dp"
+                android:text="  A cold thick fog enveloped the muddy banks of the River Styx, chilling Persephone’s ankles. Demeter pulled Persephone’s coarsely woven robes tightly around her—robes of finely combed linen made from flax soaked in olive oil. When dried in the balmy Grecian sun, Persephone’s clothing smelled of newborn lambs and gentle sunbeams and fresh mown grass, but her dark destination had none of those sensations—nothing to smell, nothing to taste, nothing to feel.
+
+\n\nDemeter kissed her daughter’s forehead.
+
+\n\n“I do not want to go back,” Persephone cried out. Demeter gathered her only child into her arms, drawing her close. In the warmth of the embrace, both of the goddesses could feel the other’s broken heart still beating. Persephone looked up in time to see her mother’s grief stricken face, jaw clenched and eyes ablaze.
+
+\n\n“Are you angry with me?” Persephone asked.
+
+\n\n“No, my love,” her mother replied, steeling herself, making her heart a stone. It would resolve nothing to weep in front of her child. “I am angry with six pomegranate seeds and the duplicity of the gods.”
+
+\n\nEven as they walked stoically out of the realm of men, Persephone noticed how Demeter blasted the land behind them with an Aeolian wind. Trees shook off their colorful autumnal leaves. Vines dropped their fruit. The fair land and its lavish bounty rotted and decayed as the two passed. Trailing their footfalls, the verdant greens of the landscape withered into ugly browns, sending a shudder down the spines of superstitious men. Death seemed nearer, as the darkness encroached earlier and earlier, shortening their days.
+
+\n\nThe goddesses proceeded out of the mortal world hand in hand, Persephone’s small white hand clasped in her mother’s large callused one. Browned by the sun, Demeter loved working in the fall fields—loved the harvest—loved reaping grain with her sharp scythe, standing next to the illiterate laborers, all rejoicing in the earth’s richness. But as the time drew nearer for Persephone to return to the Underworld, her mother grew quieter, more withdrawn.
+
+\n\nShe seldom left their rustic abode late in the season, preferring to sit by the fire and hull barley by hand, dehusking the grains with mortar and pestle, grinding them into a fine flour. Old widows around the Aegean Sea found linen bags full of barley meal placed under their straw-filled pillows as they slept, necessary foodstuffs to keep them alive throughout the winter.
+
+\n\nWhen Persephone arrived safely home to her in the spring, Demeter would breathe life back into Gaia, warming the soil, fertilizing the womb, reanimating the natural world. Until then, Demeter would sit by the River Styx and wait, brooding and counting the times Helios drove his chariot from east to west.
+
+\n\nPersephone attempted to keep her lips from quivering, swallowing hard, blinking back hot tears. But the coldness of the riverbank’s fog startled her, reminding her of all the bleak months she would have to be at Hades' side, the souls of the dead swirling and bewailing their fates around them. It was enough to drive her to madness.
+
+\n\nPersephone wept again freely. Her mother stood nearby, rubbing her back like a small child until Persephone’s sobs subsided. Her mother did not cry.
+
+\n\n“Are you thirsty?” Demeter asked.
+
+\n\nHer daughter nodded.
+
+\n\nFrom her girdle, Demeter unstrapped a small wineskin, full of barley-water flavored with mint. “Drink while you can, my dearest.”
+
+\n\nPersephone quaffed her fill while her mother kept watch, their sandals unsettlingly sinking in the mire. Standing by the River Styx, Demeter watched the murky water roil in whirlpools as far as the eye could see.
+
+\n\nFinally, she spotted Charon, the ferryman, still a good ways off. Demeter bitterly wished his infernal boat would capsize and drown him for good, but the old haggard fool remained relentless in his approach. Even from a distance, Demeter could see him adroitly wield his ferryman’s pole. She needed to say her goodbyes, as Charon was fastidious about his transporting the dead with exactness and alacrity. There would be no quarter given to mothers who wanted a bit more time with their children, even though it was wholly unnatural for children to leave their mothers behind while descending to the Underworld.
+
+\n\nCharon was coming, and even the gods were afraid of his bad-tempered outbursts.
+
+\n\nWhen Persephone returned the wineskin to her mother, Demeter pressed a small silver coin into her hands, a danake, to pay for her trip into the realm of the dead.
+
+\n\n“For the ferryman,” Demeter reminded her. “Do not look Charon in the eye. He knows where to take you in the dark. Do not be afraid. He knows to whom you belong.”
+
+\n\nAt the mention of Hades, Persephone's eyes closed in despair. Demeter held her again, her daughter silently weeping along the moldy river bank.
+
+\n\n“Will you think of me?” her daughter pleaded, watching Charon maneuver his craft to the shore, displacing the fog.
+
+\n\n“I do not ever stop thinking of you,” Demeter replied, offering her daughter a tender smile, the same smile that appeared over her cradle not so many years before.
+
+\n\n“It is so long until spring—”
+
+\n\n“How could I ever forget you, Persephone? You grew in my womb just under my heart. You are my only child and my beloved, dutiful daughter. I have the days numbered until you return to me.”
+
+\n\n“εκατόν ογδόντα δύο,” her daughter said.
+
+\n\n“Yes, one hundred and eighty two days . . .” Demeter repeated.
+
+\n\nCharon motioned and grunted for her to embark, holding out his hand and scowling. Persephone placed the danake in his hand, which quickly disappeared into his robes.
+
+\n\n“Σε αγαπώ,” Persephone whispered, a foot on the boat, turning for one long look at her mother’s weathered face.
+
+\n\n“I love you, too,” her mother replied, sending her daughter off to a cold hell with a warm smile.
+
+\n\nPersephone crouched in the hull, looking for her mother on the banks of the River Styx until out of eyesight.
+
+\n\n“I will be here until you return,” Demeter called out into the night.
+
+\n\nThrough the gloom she could just make out the whiteness of her daughter’s hand, waving a farewell—the sight of which dissolved the stone in Demeter's heart, turning it into a river of tears.\n"
+                android:textAlignment="textStart"
+                android:textColor="@color/white"
+                android:textSize="16dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.496"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/arrowCircle" />
+
+        </LinearLayout>
+
+        <!--        </ScrollView>-->
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,427 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/homebg"
+    tools:context=".Home">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/bottom_navigation">
+
+        <ScrollView
+            android:id="@+id/homeScroll"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fillViewport="true"
+            android:isScrollContainer="true"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="32dp"
+                    android:layout_marginTop="32dp"
+                    android:layout_marginEnd="32dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif-condensed-light"
+                        android:text="Hey , "
+                        android:textColor="@color/white"
+                        android:textSize="26dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/userName"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif-condensed-light"
+                        android:text=" "
+                        android:textColor="@color/white"
+                        android:textSize="26dp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="-30dp"
+                    android:orientation="vertical">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="fill"
+                        android:layout_margin="55dp"
+                        android:alpha="0.9"
+                        android:outlineAmbientShadowColor="@color/black"
+                        android:outlineSpotShadowColor="@color/black"
+                        app:cardBackgroundColor="#cfd8dc"
+                        app:cardCornerRadius="18dp"
+                        app:cardElevation="8dp"
+                        app:cardUseCompatPadding="true">
+
+                        <ProgressBar
+                            android:id="@+id/progressBar2"
+                            style="?android:attr/progressBarStyle"
+                            android:layout_width="411dp"
+                            android:layout_height="231dp"
+                            android:layout_gravity="center"
+                            android:indeterminateDrawable="@drawable/heartratebar1" />
+
+                        <com.airbnb.lottie.LottieAnimationView
+                            android:layout_width="270dp"
+                            android:layout_height="155dp"
+                            android:layout_weight="1"
+                            android:paddingStart="1dp"
+                            android:paddingTop="65dp"
+                            app:lottie_autoPlay="true"
+                            app:lottie_fileName="heart.json"
+                            app:lottie_loop="true" />
+
+                        <TextView
+                            android:id="@+id/txtProgress"
+                            android:layout_width="270dp"
+                            android:layout_height="250dp"
+                            android:hint="00"
+                            android:paddingStart="95dp"
+                            android:paddingTop="135dp"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:textSize="27sp"
+                            android:textStyle="bold"
+                            android:visibility="gone" />
+
+                        <TextView
+                            android:id="@+id/txtPastProgress"
+                            android:layout_width="270dp"
+                            android:layout_height="250dp"
+                            android:paddingStart="72dp"
+                            android:paddingTop="215dp"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:textSize="17sp" />
+
+                    </androidx.cardview.widget.CardView>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="-50dp"
+                    android:visibility="gone">
+
+                    <Button
+                        android:id="@+id/connectWatch"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:onClick="btnWatch"
+                        android:text="Add watch"
+                        android:padding="12dp"
+                        android:textColor="@color/white"
+                        android:backgroundTint="#4b6584"
+                        android:background="@drawable/home_main_btn" />
+
+
+                    <Button
+                        android:id="@+id/connectFitbitWatch"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:onClick="btnFitbitWatch"
+                        android:text="Add Fitbit"
+                        android:padding="12dp"
+                        android:visibility="gone"
+                        android:textColor="@color/white"
+                        android:layout_marginStart="24dp"
+                        android:background="#778ca3"/>
+
+                    <Button
+                        android:id="@+id/testStart"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:onClick="btnStartTest"
+                        android:text="Create new TF"
+                        android:visibility="gone"
+                        android:layout_marginStart="24dp"/>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="8dp"
+                    android:gravity="center"
+                    android:visibility="gone">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="Mark"
+                        android:textSize="18dp"
+                        android:textColor="@color/black"
+                        android:layout_marginStart="24dp"/>
+
+                    <Button
+                        android:id="@+id/btnAddPlus"
+                        android:layout_width="45dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:onClick="btnAddPlus"
+                        android:text="+"
+                        android:layout_marginStart="24dp"/>
+
+                    <Button
+                        android:id="@+id/btnAddMinus"
+                        android:layout_width="45dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:onClick="btnAddMinus"
+                        android:text="-"
+                        android:layout_marginStart="24dp"/>
+
+                    <TextView
+                        android:id="@+id/markValue"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="0"
+                        android:textSize="18dp"
+                        android:textColor="@color/black"
+                        android:layout_marginStart="24dp"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:visibility="gone">
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Downloads File"
+                        android:onClick="btnDownloadTxtFile"
+                        android:layout_marginEnd="16dp"/>
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Clear File"
+                        android:onClick="btnClearTxtFile"/>
+                </LinearLayout>
+
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:alpha="0.9"
+                    android:layout_marginStart="32dp"
+                    android:layout_marginEnd="32dp"
+                    app:cardBackgroundColor="#E7EBED"
+                    app:cardCornerRadius="18dp"
+                    app:cardUseCompatPadding="true"
+                    android:layout_marginTop="-30dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:paddingTop="4dp"
+                        android:text="How are you feeling today?"
+                        android:textColor="@color/dark_blue_300"
+                        android:textSize="18dp"
+                        android:textStyle="bold" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:gravity="center"
+                        android:orientation="horizontal"
+                        android:paddingTop="40dp">
+
+
+                        <Button
+                            android:id="@+id/happyEmoji_1"
+                            android:layout_width="45dp"
+                            android:layout_height="45dp"
+                            android:layout_margin="10dp"
+                            android:background="@drawable/happy01" />
+
+                        <Button
+                            android:id="@+id/happyEmoji_2"
+                            android:layout_width="45dp"
+                            android:layout_height="45dp"
+                            android:layout_margin="10dp"
+                            android:background="@drawable/happy02" />
+
+                        <Button
+                            android:id="@+id/happyEmoji_3"
+                            android:layout_width="45dp"
+                            android:layout_height="45dp"
+                            android:layout_margin="10dp"
+                            android:background="@drawable/happy03" />
+
+                        <Button
+                            android:id="@+id/happyEmoji_4"
+                            android:layout_width="49dp"
+                            android:layout_height="49dp"
+                            android:layout_margin="10dp"
+                            android:background="@drawable/happy04" />
+
+                        <Button
+                            android:id="@+id/happyEmoji_5"
+                            android:layout_width="45dp"
+                            android:layout_height="45dp"
+                            android:layout_margin="10dp"
+                            android:background="@drawable/happy05" />
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="51dp"
+                    android:layout_marginTop="32dp"
+                    android:layout_marginEnd="51dp"
+                    android:gravity="center">
+
+                    <Button
+                        android:id="@+id/stressHomeBtn"
+                        android:layout_width="132dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="1dp"
+                        android:background="@drawable/home_main_btn"
+                        android:onClick="btnStressed"
+                        android:padding="16dp"
+                        android:text="I want to \nrelax"
+                        android:textSize="16dp"
+                        android:textAllCaps="false"
+                        android:textColor="@color/white" />
+
+                    <Button
+                        android:id="@+id/sleepyHomebtn"
+                        android:layout_width="132dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="45dp"
+                        android:background="@drawable/home_main_btn"
+                        android:onClick="btnSleepy"
+                        android:padding="16dp"
+                        android:text="Time to \nsleep"
+                        android:textAllCaps="false"
+                        android:textSize="17dp"
+                        android:textColor="@color/white" />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="51dp"
+                    android:layout_marginTop="32dp"
+                    android:layout_marginEnd="51dp"
+                    android:gravity="center">
+
+                    <Button
+                        android:id="@+id/motivateHomeBtn"
+                        android:layout_width="132dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="1dp"
+                        android:background="@drawable/home_main_btn"
+                        android:onClick="btnMotivate"
+                        android:padding="16dp"
+                        android:text="Need \nmotivate"
+                        android:textSize="16dp"
+                        android:textAllCaps="false"
+                        android:textColor="@color/white" />
+
+                    <Button
+                        android:id="@+id/breathHomeBtn"
+                        android:layout_width="132dp"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/home_main_btn"
+                        android:layout_marginStart="45dp"
+                        android:padding="16dp"
+                        android:onClick="btnBreath"
+                        android:text="Take a deep \nbreath"
+                        android:textAllCaps="false"
+                        android:textColor="@color/white"
+                        android:textSize="18dp" />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="32dp"
+                    android:layout_marginTop="32dp"
+                    android:layout_marginEnd="32dp"
+                    android:gravity="center"
+                    android:visibility="gone">
+
+                    <Button
+                        android:id="@+id/reportHomeBtn"
+                        android:layout_width="155dp"
+                        android:layout_height="45dp"
+                        android:background="@drawable/home_main_btn"
+                        android:onClick="btnReport"
+                        android:text="Report"
+                        android:textSize="17dp"
+                        android:backgroundTint="#079992"
+                        android:textColor="@color/white" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        app:itemBackground="@color/white"
+        app:itemIconTint="@color/teal_700"
+        app:itemTextColor="@color/teal_700"
+        app:menu="@menu/menu_navigation" />
+
+</RelativeLayout>

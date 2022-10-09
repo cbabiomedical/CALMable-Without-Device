@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sea_bg"
+    tools:context=".SleepStory4">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/linear11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <ImageView
+            android:id="@+id/forestImg"
+            android:layout_width="wrap_content"
+            android:layout_height="240dp"
+            android:layout_marginTop="0dp"
+            android:src="@drawable/forest"/>
+
+        <TextView
+            android:id="@+id/theme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableEnd="@drawable/darktheme"
+            android:gravity="right |center"
+            android:onClick="btnTheme"
+            android:paddingTop="11dp"
+            android:textColor="@color/dark_blue_300"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="\n\n\nMr. Wind"
+            android:textColor="@color/white"
+            android:textSize="45sp"
+            android:fontFamily="@font/bilbo"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:text="\n\n\n\n\n\n\n\n\n\n\n\nby Sean Oreilly       "
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            android:fontFamily="@font/roboto_medium"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    <ScrollView
+        android:id="@+id/scroll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/linear11">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/linear11"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/white_background"
+            app:layout_constraintTop_toBottomOf="@+id/linear11">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_marginTop="15dp"
+                android:text="  The cold night bites its unsuspecting victims. Many are left shivering and trembling once he passes through. Others build fortresses to keep the beast at bay. But the wind gets its way. He whips every leaf off of every plant as he continues on his nightly patrol. He howls, rages, and screams through every crack and crevice. Children sit up in bed, frightened at the sound of his shrill screaming.
+
+\n\nBut one child peers out a window in a room far far away. She waits for the beast to approach her. She wants to meet the wind, the great beast told of in stories and nightmares.
+
+\n\nThe wind, being the greedy beast that he is, gathers up a storm to visit the meek kid. He howls out commands, as the thunder booms as the lightning strikes, for the rain to commence falling. He drives the storm orchestra straight over the girl’s house.
+
+\n\n“Well well well-” the wind starts.
+
+\n\n“No. Don’t be so cliche, Mr. Wind,” the child, Ellie, says.
+
+\n\nThe wind is taken aback by the interruption.
+
+\n\n“How dare you speak to me, Master Wind, in this rude way! You shall certainly pay, child!” the wind says, as he tries to cool his ice-cold temper.
+
+\n\n“I can say whatever I want to you, Mr. Wind, and no one can stop me or make me pay,” Ellie says with boldness. “Now, tell me about yourself. How do you control the weather? The plants? Us humans?”
+
+\n\nThe wind pauses his snarling at these questions.
+
+\n\n“Is this a trick?” he finally asks.
+
+\n\n“No,” Ellie responds gently. “Why would I want to trick a great mastermind like yourself?”
+
+\n\nThe wind takes a few moments before he answers.
+
+\n\n“I suppose that would be ridiculous after all. Now, as for those questions, let me put it in a story format for you, to make it easier to understand.”
+
+\n\nEllie’s small hazel eyes light up at the mention of a story.
+
+\n\n“Please do continue, Mr. Wind,” Ellie says.
+
+\n\n“Very well. One day, not so long ago, the world was a still, quiet place. Lord Space ruled over it all. He created guardians to rule different parts of the world. One was Sun, the other, Moon. Then there was Fire and Water. Breeze and Wind. Earth and Sky. Lord Space divided the guardians over the earth to protect it and keep it safe. But some of the guardians, like me, became power thirsty and greedy. We wanted to rule the world instead of Lord Space. Moon, Fire, and Earth erected me as their leader, and I would act as a go-between. I was to try to overthrow Lord Space in a voting battle from the citizens. The citizens vote for who they think is the best leader every 5 years. Lord Space always wins. Always. I strive for change and more chaos on the earth, perhaps that’s why no one votes for me.”
+
+\n\n“Maybe if you were nicer to the humans, then more people would vote for you,” Ellie suggests.
+
+\n\n“But being nice takes away all the fun! I like blowing people’s hats away! I like bending plants to my will! I like sending birthday balloons way up in the sky! Besides, how am I supposed to be nice?” Mr. Wind says.
+
+\n\n“Well, you could start by returning everyone’s hats and balloons, and then maybe straighten the plants that you bent,” Ellie says. “Then they would think of you as a kindly gentleman instead of a vicious monster.”
+
+\n\n“But I can’t be someone that I’m not! I am a vicious monster, Ellie. It’s what I do. It’s what I was created for. How am I supposed to change?” Mr. Wind counters, growing more and more furious.
+
+\n\n“Everyone can change, Mr. Wind. It just takes practice, patience, and time. It’s like breaking out of jail with a file, slow going, but with a feeling of relief in the end. Slow and steady wins the race, as they say.” Ellie says.
+
+\n\n“BUT I DON’T HAVE PATIENCE OR TIME!” Mr. Wind bellows angrily.
+
+\n\nEllie instinctively takes a step back in the security of her room.
+
+\n\n“I didn't mean to anger you, Mr. Wind, but patience and time is required for change. You can’t just wish that a spear was a sword, you have to melt it down and harden it again,” Ellie says, remembering what her dad said about metal-working.
+
+\n\n“BAH! LEAVE ME ALONE, CHILD!” And with that, Mr. Wind angrily leaves Ellie, and the storm subsides.
+
+\n\nEllie turns away from the window and sits at her desk.
+
+\n\n“Some people never change,” she mutters to herself. She pulls out paper and starts to write.
+
+\n\n‘The cold night bites its unsuspecting victims. Many are left shivering and trembling once he passes through. Others build fortresses to keep the beast at bay. But the wind gets its way. He whips every leaf off of every plant as he continues on his nightly patrol. He howls, rages, and screams through every crack and crevice. Children sit up in bed, frightened at the sound of his shrill screaming.’\n"
+                android:textAlignment="textStart"
+                android:textColor="@color/dark_blue_300"
+                android:textSize="16dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.496"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/arrowCircle" />
+
+        </LinearLayout>
+
+        <!--        </ScrollView>-->
+    </ScrollView>
+</RelativeLayout>

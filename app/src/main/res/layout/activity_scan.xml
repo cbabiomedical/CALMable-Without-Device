@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    tools:context=".scan.ScanActivity"
+    android:background="@drawable/bg_3">
+
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/watchGif"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginTop="32dp"
+        android:gravity="center"
+        android:src="@drawable/watch_gif2" />
+
+    <TextView
+        android:id="@+id/bannerScan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Click 'Start' Button to scan \n your smart device "
+        android:gravity="center"
+        android:layout_marginTop="32dp"
+        android:layout_below="@+id/watchGif"
+        android:textColor="@color/dark_blue_300"
+        android:textSize="18dp"/>
+
+
+    <Button
+        android:id="@+id/btn_scan_toggle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bannerScan"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="100dp"
+        android:gravity="center"
+        android:text="start" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/scan_results"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/btn_scan_toggle"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="100dp"
+        android:foregroundGravity="center"
+        android:scrollbars="vertical"
+        android:layout_marginBottom="16dp"/>
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="invisible">
+
+        <Button
+            android:id="@+id/btn_hs_upgrade"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="hs upgrade" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_firmware_fix"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="firmware fix" />
+
+            <TextView
+                android:id="@+id/tv_firmware_fix_state"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+</RelativeLayout>

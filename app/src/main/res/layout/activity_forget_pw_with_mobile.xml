@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_bg_register"
+    tools:context=".forgotpw_otp.ForgetPwWithMobile">
+
+    <TextView
+        android:id="@+id/banner1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="120dp"
+        android:text="Enter phone number to rest password"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:textColor="@color/dark_blue_100"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="59dp"
+        tools:layout_editor_absoluteY="216dp" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/banner1"
+        android:layout_marginTop="50dp"
+        android:orientation="horizontal"
+        android:padding="15dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="291dp">
+
+        <Spinner
+            android:id="@+id/spinnerCountries"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp" />
+
+        <EditText
+            android:id="@+id/editTextPhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="32dp"
+            android:layout_weight="2"
+            android:digits="0123456789"
+            android:hint="771234567"
+            android:inputType="phone"
+            android:maxLength="10"
+            android:textColor="@color/dark_blue_100"
+            android:textSize="16dp"
+            android:paddingStart="10dp"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/buttonResetPw"
+        android:layout_width="266dp"
+        android:layout_height="55dp"
+        android:layout_below="@id/linearLayout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="330dp"
+        android:background="@drawable/mybutton"
+        android:text="Reset Password"
+        android:textColor="@color/white"
+        android:textSize="21sp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints" />
+
+
+</RelativeLayout>

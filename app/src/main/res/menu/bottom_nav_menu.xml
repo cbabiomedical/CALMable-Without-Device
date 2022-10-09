@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/homeFragment"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="@string/title_home" />
+
+    <item
+        android:id="@+id/relaxFragment"
+        android:icon="@drawable/ic_relax_face"
+        android:title="@string/title_relax" />
+
+    <item
+        android:id="@+id/challengerFragment"
+        android:icon="@drawable/ic_challengers"
+        android:title="@string/title_challengers" />
+
+    <item
+        android:id="@+id/journalFragment"
+        android:icon="@drawable/ic_journal"
+        android:title="@string/title_journal" />
+
+    <item
+        android:id="@+id/profileFragment"
+        android:icon="@drawable/ic_profile"
+        android:title="@string/title_profile" />
+
+</menu>

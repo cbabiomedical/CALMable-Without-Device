@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sea_bg"
+    tools:context=".SleepStory1">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/linear11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+                <ImageView
+                    android:id="@+id/forestImg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="240dp"
+                    android:layout_marginTop="0dp"
+                    android:src="@drawable/forest"/>
+
+                <TextView
+                    android:id="@+id/theme"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableEnd="@drawable/darktheme"
+                    android:gravity="right |center"
+                    android:onClick="btnTheme"
+                    android:paddingTop="11dp"
+                    android:textColor="@color/dark_blue_300"
+                    android:textSize="25dp"
+                    android:textStyle="bold"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/textView16"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="\n\n\nThe Forest’s Heart"
+                    android:textColor="@color/white"
+                    android:textSize="45sp"
+                    android:fontFamily="@font/bilbo"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:id="@+id/textView17"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:text="\n\n\n\n\n\n\n\n\n\n\n\nby Claire Lewis       "
+                    android:textColor="@color/white"
+                    android:textSize="15sp"
+                    android:fontFamily="@font/roboto_medium"/>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+        <ScrollView
+            android:id="@+id/scroll"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/linear11">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_below="@+id/linear11"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginEnd="15dp"
+                    android:layout_marginBottom="15dp"
+                    android:background="@drawable/white_background"
+                    app:layout_constraintTop_toBottomOf="@+id/linear11">
+
+                        <TextView
+                            android:id="@+id/textView2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            android:layout_marginTop="15dp"
+                            android:text="  She took her first breath in a grove of towering aspen trees, under the shadow of a hummingbird’s wing. Her mother was the melody of the mountain stream and her father was the glitter of sunlight through the coin-shaped leaves.
+
+\n\nThe forest cared for her, swaddled her in wildflowers and sustained her with birdsong. When she cried, the butterflies kissed her cheeks and dried her tears. She grew strong and fast, and in only a few years she was taller than the saplings that sprouted on the day of her birth.
+
+\n\nWhen the nights were cold, she slept beside the fawns, curled up against their spotted backs while their mothers sang lullabies and told stories. On warm spring evenings, she lay on beds of moss and sweet-smelling fallen leaves.
+
+\n\nShe played with the bluebirds, who taught her to sing. She raced the coyote pups along dry stream beds. On rainy days when the earth smelled of sky, she wandered down to the mountain lake and swam with the river otters.
+
+\n\nShe lived a contented life for many years in the little grove. The woods and the mountainside loved her dearly, knew the sound of her footsteps and the touch of her fingers. Even the most fearsome creatures were tame in her presence. The bears told her where to find the sweetest honey. The chorus of wolves sang her dirges in hollow harmony, hoping to see her smile. Even the mountain lion tipped his regal head in her direction as he stalked by in search of prey.
+
+\n\nShe was the forest’s very heart.
+
+\n\nOne day, she awoke to strange sounds in the woods. Voices, clumsy and ill-defined, not lofty like birdsong or steady like a doe’s murmur. She climbed to the top of an old pine tree, who straightened with joy at her touch.
+
+\n\nA man and his son rambled through the woods, snapping limbs from sapling trees and trampling larkspur underfoot. The man was tall and thin, and the boy stood about the girl’s height, with a smile cool as a riverbed stone.
+
+\n\nShe watched all day from a distance as they cleared a space in the aspen grove to make camp, gathered wood, made a fire, pulled fish from the lake with a stick and a string and roasted them over the flames.
+
+\n\nWhen night fell, the forest held a hushed conference about the strangers. The nervous squirrels chittered, the bucks stamped their hooves, and the owls quieted everyone down to warn them: no one was to go near these trespassers, especially not the girl.
+
+\n\nThe next morning, the girl licked dewdrops from the wild mint leaves and wandered the woods, avoiding the spot where the man and his son lay sleeping. She hummed to herself as she walked, and did not notice the boy, who had risen at the sound of her song and followed it.
+
+\n\n“What’s your name?” he asked as he approached, and the forest grew deathly still.
+
+\n\nThe girl did not have a name. She did not know what names were. There was no use for such things in the forest, for the creatures knew one another too intimately for names.
+
+\n\n“Your name?” he asked again, slowly.
+
+\n\nShe shrugged.
+
+\n\nHe frowned. “I’m Liam.”
+
+\n\n“Liam,” she replied, letting the word fall from her tongue like overripe berries from a vine.
+
+\n\nHe nodded and stepped towards her, hand outstretched. In his palm rested a hand-carved wooden rabbit, one of the most beautiful and strange things she’d ever seen. Hesitantly, knowing that the disapproving trees were watching, she snatched the rabbit from him and dashed away, vanishing into the woods.
+
+\n\nThe man and his son stayed in the grove one more day. Neither caught a glimpse of the girl in that time, and the man was quite convinced that his son had dreamed her.
+
+\n\nBut Liam knew the truth, and so did the forest.
+
+\n\nAfter the trespassers left, the girl clung tightly to the wooden rabbit and whispered her wishes in its ears. The creatures in the forest told her to forget the boy, begged her to join their games. For weeks, she could not bring herself to do either.
+
+\n\nA year passed, and somewhere in that time the girl nearly forgot Liam. She left the wooden rabbit under the old pine tree. She played once more with the otters and sang with the sparrows. The forest was whole again, whole and happy.
+
+\n\nThen, Liam and his father returned.
+
+\n\nThis time, the girl was bolder and met Liam in the grove while his father fished down at the lake. He didn’t look up from the fire when she appeared, he only smiled into the gentle flames.
+
+\n\n“I knew you were real,” he whispered.
+
+\n\nShe smiled back.
+
+\n\nLiam and his father returned to the woods once every spring. Each year, much to the forest’s chagrin, Liam and the girl stole a moment together beneath the shade of the pine branches, nestled in the scent of fallen needles that clung to their skin.
+
+\n\nThey talked and they laughed. The girl came to love speaking in Liam’s clumsy language, just as he came to love how well she knew the forest, how deeply she belonged to it.
+
+\n\nThe third year they met, Liam stole a kiss from the girl under the pine tree.
+
+\n\nThe fourth year, the girl stole two kisses and Liam stole a caress of the girl’s wildflower skin.
+
+\n\nOne day after many years of stealing kisses, they stole much more from one another, and lingered in the shade of the pine tree in a breathless reverie.
+
+\n\nShortly after that day, Liam and his father departed the woods again. The girl fell ill. The forest did not scold, only sighed at the inevitability of it all and nursed her as best as it could. In time, she grew better and stronger. She grew fuller, too, and felt the terrifying exhilaration of life within her.
+
+\n\nShe bore a child under the shade of the aspen trees, a daughter with wildflower skin and eyes full of wishes. The girl gave her daughter the little wooden rabbit to play with and when spring came, the two of them waited under the pine tree for Liam’s return.
+
+\n\nWhen he did return, this time without his father, his cool smile did not last long. His countenance grew dark at the sight of his daughter, sleeping in a bed of pine needles. He knew that this child, like her mother, was not human, not quite. And that knowledge made him tremble.
+
+\n\nLiam could not hear the girl’s voice over the sound of fear, rushing in white rapids within his ears. He raged, more at himself than at the girl, but the forest heard and bristled at his fury. The girl did not weep, did not plead as he turned and started back down the mountainside. She simply picked up her daughter and left the shade of the pine tree for the last time with a soft goodbye.
+
+\n\nThe girl could forgive and forget, but the forest could not.
+
+\n\nLiam did not make it down the mountain.
+
+\n\nWhen the girl discovered what the forest had done, she went out in search of Liam’s body, thinking she might bury the man she loved under the pine tree where she loved him. She left her daughter beside the fawns in the tender care of the aspen grove where she was raised, promising to return.
+
+\n\nShe searched for days. The forest would not tell her where he lay, so she wandered in aimless grief. With gentle chirps, the birds cautioned her to go back to her daughter. The wolves invited her to add her loss to their somber song and allow herself to heal. The mountain lion said nothing, merely nuzzled her hand and pointed her home.
+
+\n\nStill, she did not stop searching for Liam. The forest wept for her, with her, bitter tears of regret and love.
+
+\n\nWhen she found him, lying in a field of larkspur and thistles with his eyes open to the sun, she stood over him with tears in her eyes.
+
+\n\nThe very heart of the forest lay down beside the man she loved did not rise.
+
+\n\nYear after year and even to this day, all the creatures of the forest gather at the edge of that field in early spring. They bring with them the girl’s daughter, to show her the wildflowers which bloom over the place where her parents lie.\n"
+                            android:textAlignment="textStart"
+                            android:textColor="@color/dark_blue_300"
+                            android:textSize="16dp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.496"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/arrowCircle" />
+
+                </LinearLayout>
+
+<!--        </ScrollView>-->
+        </ScrollView>
+</RelativeLayout>

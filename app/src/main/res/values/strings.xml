@@ -1,0 +1,87 @@
+<resources>
+    <string name="app_name">CALMable</string>
+    <string name="title_activity_navigation">NavigationActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="title_activity_bottom_navigation">BottomNavigationActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_relax">Relax</string>
+    <string name="title_challengers">Challengers</string>
+    <string name="title_journal">Journal</string>
+    <string name="title_profile">Profile</string>
+    <string name="title_activity_fragment_relax">FragmentRelax</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_fragment_challenge">FragmentChallenge</string>
+    <string name="title_activity_fragment_jorunal">FragmentJorunal</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="stop_scan">stop</string>
+    <string name="start_scan">start</string>
+    <string name="connect_state">Connect State:</string>
+
+    <string name="disconnect">disconnect</string>
+    <string name="connect">connect</string>
+
+    <string name="state_connecting">Connecting</string>
+    <string name="state_connected">Connected</string>
+    <string name="state_disconnected">Disconnected</string>
+
+    <string name="start_measure_heart_rate">Start Measure Heart Rate</string>
+    <string name="stop_measure_heart_rate">Stop Measure Heart Rate</string>
+    <string name="start_measure_blood_pressure">Start Measure Blood Pressure</string>
+    <string name="stop_measure_blood_pressure">Stop Measure Blood Pressure</string>
+    <string name="start_measure_blood_oxygen">Start Measure Blood Oxygen</string>
+    <string name="stop_measure_blood_oxygen">Stop Measure Blood Oxygen</string>
+
+    <string name="heart_rate">Heart Rate</string>
+    <string name="blood_pressure">sbp:%1$d,dbp:%2$d</string>
+    <string name="blood_oxygen">blood oxygen:%1$d</string>
+
+
+    <string name="dfu_status_download_starting">Starting Download</string>
+    <string name="dfu_status_download_complete">Downloaded Complete</string>
+    <string name="dfu_status_starting">Starting DFU</string>
+    <string name="dfu_status_uploading_part" formatted="false">Uploading part %d</string>
+    <string name="dfu_status_completed">Done</string>
+    <string name="dfu_status_aborted">Aborted</string>
+    <string name="dfu_status_error_msg">DFU process failed.</string>
+    <string name="title_activity_maps">MapsActivity</string>
+
+
+    <string name="login_button">Login</string>
+    <string name="login_title">Fitbit heart rate monitor</string>
+    <string name="user_id_hint">User id</string>
+    <string name="timestamp">Timestamp</string>
+    <string name="get_heart_rate">Get heart rate</string>
+    <string name="userid_required">User id required</string>
+    <string name="logout">Logout</string>
+    <string name="starttime">Start Time</string>
+    <string name="endtime">End Time</string>
+    <string name="starttime_required">Start Time Required</string>
+    <string name="endtime_required">End Time Required</string>
+    <string name="starttime_invalid">Start Time Invalid</string>
+    <string name="endtime_invalid">End Time Invalid</string>
+    <string name="no_data">No Data Available For the Specified Duration</string>
+    <string name="heart">
+    M25.119,2.564c12.434,0.023,18.68,5.892,24.88,17.612  c6.2-11.721,12.446-17.589,24.877-17.612c13.81-0.025,25.035,10.575,25.061,23.66c0.033,23.708-24.952,47.46-49.938,71.212  C25.016,73.685,0.03,49.932,0.064,26.224C0.085,13.14,11.309,2.539,25.119,2.564z
+  </string>
+    <string name="title_activity_home2">Home2Activity</string>
+    <!-- TODO: Remove or change this placeholder text -->
+</resources>

@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="15dp"
+    android:background="@drawable/sea_bg"
+    tools:context=".SleepStoryReadActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/linearx"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:gravity="center">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="32dp"
+                android:backgroundTint="@color/teal_700"
+                android:onClick="btnGoStoryAudio"
+                android:text="Audio Story"
+                android:textColor="@color/white" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/teal_100"
+                android:text="Read Story"
+                android:textColor="@color/white" />
+
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/category1Text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:text="Top Stories"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="18dp" />
+
+        <HorizontalScrollView
+            android:id="@+id/horizontal1"
+            android:layout_width="369dp"
+            android:layout_height="220dp"
+            android:layout_marginTop="5dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearx">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+
+                <ImageButton
+                    android:id="@+id/SleepStory1btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    android:onClick="SleepStory1btn"
+                    app:srcCompat="@drawable/fh11" />
+
+                <ImageButton
+                    android:id="@+id/SleepStory2btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    app:layout_constraintStart_toEndOf="@+id/SleepStory1btn"
+                    app:layout_constraintTop_toTopOf="@+id/SleepStory1btn"
+                    android:onClick="SleepStory2btn"
+                    app:srcCompat="@drawable/momo" />
+
+                <ImageButton
+                    android:id="@+id/SleepStory3btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    app:layout_constraintStart_toEndOf="@+id/SleepStory2btn"
+                    app:layout_constraintTop_toTopOf="@+id/SleepStory2btn"
+                    android:onClick="SleepStory3btn"
+                    app:srcCompat="@drawable/powers" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </HorizontalScrollView>
+
+        <TextView
+            android:id="@+id/category3Text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:text="Showing New ..."
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="18dp" />
+
+        <HorizontalScrollView
+            android:id="@+id/horizontal3"
+            android:layout_width="369dp"
+            android:layout_height="220dp"
+            android:layout_marginTop="5dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/horizontal1">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+
+                <ImageButton
+                    android:id="@+id/SleepStory4btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    android:onClick="SleepStory4btn"
+                    app:srcCompat="@drawable/wind" />
+
+                <ImageButton
+                    android:id="@+id/SleepStory5btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    app:layout_constraintStart_toEndOf="@+id/SleepStory4btn"
+                    app:layout_constraintTop_toTopOf="@+id/SleepStory4btn"
+                    android:onClick="SleepStory5btn"
+                    app:srcCompat="@drawable/moony" />
+
+                <ImageButton
+                    android:id="@+id/SleepStory6btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    app:layout_constraintStart_toEndOf="@+id/SleepStory5btn"
+                    app:layout_constraintTop_toTopOf="@+id/SleepStory5btn"
+                    android:onClick="SleepStory6btn"
+                    app:srcCompat="@drawable/stone" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </HorizontalScrollView>
+
+
+        <TextView
+            android:id="@+id/category2Text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:text="You may also like ..."
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="18dp" />
+
+        <HorizontalScrollView
+            android:id="@+id/horizontal2"
+            android:layout_width="369dp"
+            android:layout_height="235dp"
+            android:layout_marginTop="5dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/horizontal1">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+
+                <ImageButton
+                    android:id="@+id/SleepStory7btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    android:onClick="SleepStory7btn"
+                    app:srcCompat="@drawable/christmas" />
+
+                <ImageButton
+                    android:id="@+id/SleepStory8btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    app:layout_constraintStart_toEndOf="@+id/SleepStory7btn"
+                    app:layout_constraintTop_toTopOf="@+id/SleepStory7btn"
+                    android:onClick="SleepStory8btn"
+                    app:srcCompat="@drawable/ice" />
+
+                <ImageButton
+                    android:id="@+id/SleepStory9btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    app:layout_constraintStart_toEndOf="@+id/SleepStory8btn"
+                    app:layout_constraintTop_toTopOf="@+id/SleepStory8btn"
+                    android:onClick="SleepStory9btn"
+                    app:srcCompat="@drawable/poundw" />
+
+                <ImageButton
+                    android:id="@+id/SleepStory10btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    app:layout_constraintStart_toEndOf="@+id/SleepStory9btn"
+                    app:layout_constraintTop_toTopOf="@+id/SleepStory9btn"
+                    android:onClick="SleepStory10btn"
+                    app:srcCompat="@drawable/morning" />
+
+                <ImageButton
+                    android:id="@+id/SleepStory11btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    app:layout_constraintStart_toEndOf="@+id/SleepStory10btn"
+                    app:layout_constraintTop_toTopOf="@+id/SleepStory10btn"
+                    android:onClick="SleepStory11btn"
+                    app:srcCompat="@drawable/bookd" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </HorizontalScrollView>
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/annie_use_your_telescope</item>
+        <item>@font/architects_daughter</item>
+        <item>@font/bilbo</item>
+        <item>@font/bilbo_swash_caps</item>
+        <item>@font/bowlby_one</item>
+        <item>@font/arizonia</item>
+        <item>@font/covered_by_your_grace</item>
+        <item>@font/roboto_bold</item>
+        <item>@font/roboto_light</item>
+        <item>@font/roboto_medium</item>
+    </array>
+</resources>

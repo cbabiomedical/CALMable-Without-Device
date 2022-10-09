@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_bg_register"
+    tools:context=".forgotpw_otp.ForgetPwOtp">
+
+
+    <TextView
+        android:id="@+id/banner1"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:gravity="center"
+        android:text="Forget Password OTP"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:textColor="@color/dark_blue_100"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="59dp"
+        tools:layout_editor_absoluteY="216dp" />
+
+    <EditText
+        android:id="@+id/editTextCode"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/banner1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        android:digits="0123456789"
+        android:gravity="center"
+        android:hint="Enter code"
+        android:maxLength="6"
+        android:minHeight="48dp"
+        android:textSize="18dp" />
+
+
+    <LinearLayout
+        android:id="@+id/linearLayoutVerifyPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/banner1"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginEnd="32dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="I didn't receive the OTP,  "
+            android:textColor="@color/white"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/buttonResent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:gravity="start"
+            android:text="Resend"
+            android:textAllCaps="false"
+            android:textColor="@color/dark_blue_100"
+            android:textSize="18dp" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/buttonSignIn"
+        android:layout_width="266dp"
+        android:layout_height="55dp"
+        android:layout_below="@id/editTextCode"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="340dp"
+        android:background="@drawable/mybutton"
+        android:text="CONTINUE"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="21sp"
+        app:cornerRadius="21dp" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonSignIn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:visibility="gone" />
+
+
+</RelativeLayout>

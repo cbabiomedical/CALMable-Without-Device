@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sea_bg"
+    tools:context=".ProfileFragment">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:layout_marginTop="32dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:background="@color/black"
+        android:alpha="0.3"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp">
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="32dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/profileImage"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/uer_profile_image" />
+
+        <TextView
+            android:id="@+id/userName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:gravity="center"
+            android:text="Mahidi Wijayantha "
+            android:textColor="@color/white"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/settings"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="345dp"
+        android:layout_marginTop="36dp"
+        android:background="@drawable/ic_settings_icon"
+        android:padding="13dp" />
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="210dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="45dp"
+            android:layout_marginEnd="45dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/myDownloadsBtn"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/profile_shape"
+                android:drawableStart="@drawable/ic_download_icon"
+                android:drawableEnd="@drawable/ic_arrow"
+                android:paddingStart="12dp"
+                android:paddingEnd="10dp"
+                android:text="My Downloads"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/myFavouritesBtn"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="3dp"
+                android:background="@drawable/profile_shape"
+                android:drawableStart="@drawable/ic_favorites_icon"
+                android:drawableEnd="@drawable/ic_arrow"
+                android:paddingStart="12dp"
+                android:paddingEnd="10dp"
+                android:text="My Favourites"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/remindersBtn"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="3dp"
+                android:background="@drawable/profile_shape"
+                android:drawableStart="@drawable/ic_reminders_icon"
+                android:drawableEnd="@drawable/ic_arrow"
+                android:paddingStart="12dp"
+                android:paddingEnd="10dp"
+                android:text="Reminders"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/calenderBtn"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="3dp"
+                android:background="@drawable/profile_shape"
+                android:drawableStart="@drawable/ic_calendar_icon"
+                android:drawableEnd="@drawable/ic_arrow"
+                android:paddingStart="12dp"
+                android:paddingEnd="10dp"
+                android:text="calender"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/premiumBtn"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="3dp"
+                android:background="@drawable/profile_shape"
+                android:drawableStart="@drawable/ic_premium_icon"
+                android:drawableEnd="@drawable/ic_arrow"
+                android:paddingStart="12dp"
+                android:paddingEnd="10dp"
+                android:text="Premium"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/rateUsBtn"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="3dp"
+                android:background="@drawable/profile_shape"
+                android:drawableStart="@drawable/ic__rate_icon"
+                android:drawableEnd="@drawable/ic_arrow"
+                android:paddingStart="12dp"
+                android:paddingEnd="10dp"
+                android:text="Rate Us"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/aboutAppBtn"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="3dp"
+                android:background="@drawable/profile_shape"
+                android:drawableStart="@drawable/ic_about_icon"
+                android:drawableEnd="@drawable/ic_arrow"
+                android:paddingStart="12dp"
+                android:paddingEnd="10dp"
+                android:text="About App"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="6dp"
+                android:layout_marginEnd="32dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/facebook"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/facebook_icon" />
+
+                <ImageView
+                    android:id="@+id/instagram"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/instagram_icon" />
+
+                <ImageView
+                    android:id="@+id/twitter"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/twitter_icon" />
+
+                <ImageView
+                    android:id="@+id/whatsApp"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/whatsapp_icon" />
+
+            </LinearLayout>
+
+
+            <Button
+                android:id="@+id/signOut"
+                android:layout_width="266dp"
+                android:layout_height="55dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="16dp"
+                android:background="@drawable/mybutton"
+                android:text="LOGout"
+                android:textColor="@color/white"
+                android:textSize="21sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>
